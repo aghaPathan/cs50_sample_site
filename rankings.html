@@ -1,0 +1,1513 @@
+<!DOCTYPE html>
+<html lang="en">
+    <html>
+        <head>
+            <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
+            <link href="styles.css" rel="stylesheet">
+            <script src="scripts.js"></script>
+            <title>Chess World</title>
+        </head>
+        <body>
+            <!--navigation bar-->
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="margin-bottom:20px;">
+                <a class="navbar-brand" href="#">Chess World</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-item nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
+                        <a class="nav-item nav-link" href="rules.html">Rules</a>
+                        <a class="nav-item nav-link" href="stages.html">Stages</a>
+                        <a class="nav-item nav-link" href="rankings.html">Rankings</a>
+                    </div>
+                </div>
+            </nav>
+            <div class="col-md-9 mx-auto">
+                <div>
+                    <h3>Highest ratings by decade</h3>
+                </div>
+                <p style=" margin-top:20px;">
+                    This section lists the top 20 players by peak FIDE rating achieved in every decade since 1971, when FIDE started officially publishing rating lists.
+                </p>
+                <!--2020s-->
+                <button type="button" class="btn btn-outline-dark btn-lg btn-block" style="margin-bottom:20px;" onclick="myFunction('2020s')">
+                <h6>
+                2020s
+                </h6>
+                </button>
+                <div id="2020s" style="display:none;">
+                    <table class="col-md-9 mx-auto table table-bordered" style="margin-top:20px;">
+                        <caption>Chess players ordered by peak FIDE rating in 2020s
+                        </caption>
+                        <thead class="thead-dark"><tr>
+                            <th class="headerSort" tabindex="0" role="columnheader button" title="Sort ascending">
+                            </th>
+                            <th class="headerSort" tabindex="0" role="columnheader button" title="Sort ascending">Country
+                            </th>
+                            <th class="headerSort" tabindex="0" role="columnheader button" title="Sort ascending">Player
+                            </th>
+                            <th class="headerSort" tabindex="0" role="columnheader button" title="Sort ascending">Peak rating in 2020s
+                            </th>
+                            <th class="headerSort" tabindex="0" role="columnheader button" title="Sort ascending">Achieved
+                            </th></tr></thead><tbody>
+                            <tr>
+                                <td>1
+                                </td>
+                                <td><span class="flagicon"><a href="https://en.wikipedia.org/wiki/Norway" title="Norway"><img alt="Norway" src="//upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Flag_of_Norway.svg/21px-Flag_of_Norway.svg.png" decoding="async" width="21" height="15" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Flag_of_Norway.svg/32px-Flag_of_Norway.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Flag_of_Norway.svg/41px-Flag_of_Norway.svg.png 2x" data-file-width="1100" data-file-height="800"></a></span>
+                            </td>
+                            <td><a href="https://en.wikipedia.org/wiki/Magnus_Carlsen" title="Magnus Carlsen">Magnus Carlsen</a>
+                        </td>
+                        <td>2872
+                        </td>
+                        <td>2020-01
+                        </td></tr>
+                        <tr>
+                            <td>2
+                            </td>
+                            <td><span class="flagicon"><a href="https://en.wikipedia.org/wiki/Italy" title="Italy"><img alt="Italy" src="//upload.wikimedia.org/wikipedia/en/thumb/0/03/Flag_of_Italy.svg/23px-Flag_of_Italy.svg.png" decoding="async" width="23" height="15" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/en/thumb/0/03/Flag_of_Italy.svg/35px-Flag_of_Italy.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/0/03/Flag_of_Italy.svg/45px-Flag_of_Italy.svg.png 2x" data-file-width="1500" data-file-height="1000"></a></span><span class="flagicon"><a href="https://en.wikipedia.org/wiki/United_States" title="United States"><img alt="United States" src="//upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/23px-Flag_of_the_United_States.svg.png" decoding="async" width="23" height="12" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/35px-Flag_of_the_United_States.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/46px-Flag_of_the_United_States.svg.png 2x" data-file-width="1235" data-file-height="650"></a></span>
+                        </td>
+                        <td><a href="https://en.wikipedia.org/wiki/Fabiano_Caruana" title="Fabiano Caruana">Fabiano Caruana</a>
+                    </td>
+                    <td>2842
+                    </td>
+                    <td>2020-02
+                    </td></tr>
+                    <tr>
+                        <td>3
+                        </td>
+                        <td><span class="flagicon"><a href="https://en.wikipedia.org/wiki/China" title="China"><img alt="China" src="//upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Flag_of_the_People%27s_Republic_of_China.svg/23px-Flag_of_the_People%27s_Republic_of_China.svg.png" decoding="async" width="23" height="15" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Flag_of_the_People%27s_Republic_of_China.svg/35px-Flag_of_the_People%27s_Republic_of_China.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Flag_of_the_People%27s_Republic_of_China.svg/45px-Flag_of_the_People%27s_Republic_of_China.svg.png 2x" data-file-width="900" data-file-height="600"></a></span>
+                    </td>
+                    <td><a href="https://en.wikipedia.org/wiki/Ding_Liren" title="Ding Liren">Ding Liren</a>
+                </td>
+                <td>2805
+                </td>
+                <td>2020-01
+                </td></tr>
+                <tr>
+                    <td>4
+                    </td>
+                    <td><span class="flagicon"><a href="https://en.wikipedia.org/wiki/Russia" title="Russia"><img alt="Russia" src="//upload.wikimedia.org/wikipedia/en/thumb/f/f3/Flag_of_Russia.svg/23px-Flag_of_Russia.svg.png" decoding="async" width="23" height="15" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/en/thumb/f/f3/Flag_of_Russia.svg/35px-Flag_of_Russia.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/f/f3/Flag_of_Russia.svg/45px-Flag_of_Russia.svg.png 2x" data-file-width="900" data-file-height="600"></a></span>
+                </td>
+                <td><a href="https://en.wikipedia.org/wiki/Ian_Nepomniachtchi" title="Ian Nepomniachtchi">Ian Nepomniachtchi</a>
+            </td>
+            <td>2784
+            </td>
+            <td>2020-04
+            </td></tr>
+            <tr>
+                <td>5
+                </td>
+                <td><span class="flagicon"><a href="https://en.wikipedia.org/wiki/France" title="France"><img alt="France" src="//upload.wikimedia.org/wikipedia/en/thumb/c/c3/Flag_of_France.svg/23px-Flag_of_France.svg.png" decoding="async" width="23" height="15" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/en/thumb/c/c3/Flag_of_France.svg/35px-Flag_of_France.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/c/c3/Flag_of_France.svg/45px-Flag_of_France.svg.png 2x" data-file-width="900" data-file-height="600"></a></span>
+            </td>
+            <td><a href="https://en.wikipedia.org/wiki/Maxime_Vachier-Lagrave" title="Maxime Vachier-Lagrave">Maxime Vachier-Lagrave</a>
+        </td>
+        <td>2778
+        </td>
+        <td>2020-04
+        </td></tr>
+        <tr>
+            <td>6
+            </td>
+            <td><span class="flagicon"><a href="https://en.wikipedia.org/wiki/Russia" title="Russia"><img alt="Russia" src="//upload.wikimedia.org/wikipedia/en/thumb/f/f3/Flag_of_Russia.svg/23px-Flag_of_Russia.svg.png" decoding="async" width="23" height="15" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/en/thumb/f/f3/Flag_of_Russia.svg/35px-Flag_of_Russia.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/f/f3/Flag_of_Russia.svg/45px-Flag_of_Russia.svg.png 2x" data-file-width="900" data-file-height="600"></a></span>
+        </td>
+        <td><a href="https://en.wikipedia.org/wiki/Alexander_Grischuk" title="Alexander Grischuk">Alexander Grischuk</a>
+    </td>
+    <td>2777
+    </td>
+    <td>2020-01
+    </td></tr>
+    <tr>
+        <td>7
+        </td>
+        <td><span class="flagicon"><a href="https://en.wikipedia.org/wiki/Armenia" title="Armenia"><img alt="Armenia" src="//upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Flag_of_Armenia.svg/23px-Flag_of_Armenia.svg.png" decoding="async" width="23" height="12" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Flag_of_Armenia.svg/35px-Flag_of_Armenia.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Flag_of_Armenia.svg/46px-Flag_of_Armenia.svg.png 2x" data-file-width="1200" data-file-height="600"></a></span>
+    </td>
+    <td><a href="https://en.wikipedia.org/wiki/Levon_Aronian" title="Levon Aronian">Levon Aronian</a>
+</td>
+<td>2773
+</td>
+<td>2020-01
+</td></tr>
+<tr>
+    <td>8=
+    </td>
+    <td><span class="flagicon"><a href="https://en.wikipedia.org/wiki/Azerbaijan" title="Azerbaijan"><img alt="Azerbaijan" src="//upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Flag_of_Azerbaijan.svg/23px-Flag_of_Azerbaijan.svg.png" decoding="async" width="23" height="12" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Flag_of_Azerbaijan.svg/35px-Flag_of_Azerbaijan.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Flag_of_Azerbaijan.svg/46px-Flag_of_Azerbaijan.svg.png 2x" data-file-width="1200" data-file-height="600"></a></span>
+</td>
+<td><a href="https://en.wikipedia.org/wiki/Shakhriyar_Mamedyarov" title="Shakhriyar Mamedyarov">Shakhriyar Mamedyarov</a>
+</td>
+<td>2770
+</td>
+<td>2020-01
+</td></tr>
+<tr>
+<td>8=
+</td>
+<td><span class="flagicon"><a href="https://en.wikipedia.org/wiki/United_States" title="United States"><img alt="United States" src="//upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/23px-Flag_of_the_United_States.svg.png" decoding="async" width="23" height="12" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/35px-Flag_of_the_United_States.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/46px-Flag_of_the_United_States.svg.png 2x" data-file-width="1235" data-file-height="650"></a></span>
+</td>
+<td><a href="https://en.wikipedia.org/wiki/Wesley_So" title="Wesley So">Wesley So</a>
+</td>
+<td>2770
+</td>
+<td>2020-02
+</td></tr>
+<tr>
+<td>10
+</td>
+<td><span class="flagicon"><a href="https://en.wikipedia.org/wiki/Netherlands" title="Netherlands"><img alt="Netherlands" src="//upload.wikimedia.org/wikipedia/commons/thumb/2/20/Flag_of_the_Netherlands.svg/23px-Flag_of_the_Netherlands.svg.png" decoding="async" width="23" height="15" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/2/20/Flag_of_the_Netherlands.svg/35px-Flag_of_the_Netherlands.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/2/20/Flag_of_the_Netherlands.svg/45px-Flag_of_the_Netherlands.svg.png 2x" data-file-width="900" data-file-height="600"></a></span>
+</td>
+<td><a href="https://en.wikipedia.org/wiki/Anish_Giri" title="Anish Giri">Anish Giri</a>
+</td>
+<td>2768
+</td>
+<td>2020-01
+</td></tr>
+<tr>
+<td>11
+</td>
+<td><span class="flagicon"><a href="https://en.wikipedia.org/wiki/Azerbaijan" title="Azerbaijan"><img alt="Azerbaijan" src="//upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Flag_of_Azerbaijan.svg/23px-Flag_of_Azerbaijan.svg.png" decoding="async" width="23" height="12" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Flag_of_Azerbaijan.svg/35px-Flag_of_Azerbaijan.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Flag_of_Azerbaijan.svg/46px-Flag_of_Azerbaijan.svg.png 2x" data-file-width="1200" data-file-height="600"></a></span>
+</td>
+<td><a href="https://en.wikipedia.org/wiki/Teimour_Radjabov" title="Teimour Radjabov">Teimour Radjabov</a>
+</td>
+<td>2765
+</td>
+<td>2020-01
+</td></tr>
+<tr>
+<td>12
+</td>
+<td><span class="flagicon"><a href="https://en.wikipedia.org/wiki/China" title="China"><img alt="China" src="//upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Flag_of_the_People%27s_Republic_of_China.svg/23px-Flag_of_the_People%27s_Republic_of_China.svg.png" decoding="async" width="23" height="15" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Flag_of_the_People%27s_Republic_of_China.svg/35px-Flag_of_the_People%27s_Republic_of_China.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Flag_of_the_People%27s_Republic_of_China.svg/45px-Flag_of_the_People%27s_Republic_of_China.svg.png 2x" data-file-width="900" data-file-height="600"></a></span>
+</td>
+<td><a href="https://en.wikipedia.org/wiki/Wang_Hao_(chess_player)" title="Wang Hao (chess player)">Wang Hao</a>
+</td>
+<td>2763
+</td>
+<td>2020-04
+</td></tr>
+<tr>
+<td>13
+</td>
+<td><span class="flagicon"><a href="https://en.wikipedia.org/wiki/Hungary" title="Hungary"><img alt="Hungary" src="//upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Flag_of_Hungary.svg/23px-Flag_of_Hungary.svg.png" decoding="async" width="23" height="12" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Flag_of_Hungary.svg/35px-Flag_of_Hungary.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Flag_of_Hungary.svg/46px-Flag_of_Hungary.svg.png 2x" data-file-width="1200" data-file-height="600"></a></span>
+</td>
+<td><a href="https://en.wikipedia.org/wiki/Richard_Rapport" class="mw-redirect" title="Richard Rapport">Richard Rapport</a>
+</td>
+<td>2760
+</td>
+<td>2020-03
+</td></tr>
+<tr>
+<td>14=
+</td>
+<td><span class="flagicon"><a href="https://en.wikipedia.org/wiki/India" title="India"><img alt="India" src="//upload.wikimedia.org/wikipedia/en/thumb/4/41/Flag_of_India.svg/23px-Flag_of_India.svg.png" decoding="async" width="23" height="15" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/en/thumb/4/41/Flag_of_India.svg/35px-Flag_of_India.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/4/41/Flag_of_India.svg/45px-Flag_of_India.svg.png 2x" data-file-width="1350" data-file-height="900"></a></span>
+</td>
+<td><a href="https://en.wikipedia.org/wiki/Viswanathan_Anand" title="Viswanathan Anand">Viswanathan Anand</a>
+</td>
+<td>2758
+</td>
+<td>2020-01
+</td></tr>
+<tr>
+<td>14=
+</td>
+<td><span class="flagicon"><a href="https://en.wikipedia.org/wiki/United_States" title="United States"><img alt="United States" src="//upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/23px-Flag_of_the_United_States.svg.png" decoding="async" width="23" height="12" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/35px-Flag_of_the_United_States.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/46px-Flag_of_the_United_States.svg.png 2x" data-file-width="1235" data-file-height="650"></a></span>
+</td>
+<td><a href="https://en.wikipedia.org/wiki/Leinier_Dominguez_Perez" class="mw-redirect" title="Leinier Dominguez Perez">Leinier Dominguez Perez</a>
+</td>
+<td>2758
+</td>
+<td>2020-01
+</td></tr>
+<tr>
+<td>14=
+</td>
+<td><span class="flagicon"><a href="https://en.wikipedia.org/wiki/Poland" title="Poland"><img alt="Poland" src="//upload.wikimedia.org/wikipedia/en/thumb/1/12/Flag_of_Poland.svg/23px-Flag_of_Poland.svg.png" decoding="async" width="23" height="14" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/en/thumb/1/12/Flag_of_Poland.svg/35px-Flag_of_Poland.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/1/12/Flag_of_Poland.svg/46px-Flag_of_Poland.svg.png 2x" data-file-width="1280" data-file-height="800"></a></span>
+</td>
+<td><a href="https://en.wikipedia.org/wiki/Jan-Krzysztof_Duda" title="Jan-Krzysztof Duda">Jan-Krzysztof Duda</a>
+</td>
+<td>2758
+</td>
+<td>2020-01
+</td></tr>
+<tr>
+<td>17
+</td>
+<td><span class="flagicon"><a href="https://en.wikipedia.org/wiki/Russia" title="Russia"><img alt="Russia" src="//upload.wikimedia.org/wikipedia/en/thumb/f/f3/Flag_of_Russia.svg/23px-Flag_of_Russia.svg.png" decoding="async" width="23" height="15" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/en/thumb/f/f3/Flag_of_Russia.svg/35px-Flag_of_Russia.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/f/f3/Flag_of_Russia.svg/45px-Flag_of_Russia.svg.png 2x" data-file-width="900" data-file-height="600"></a></span>
+</td>
+<td><a href="https://en.wikipedia.org/wiki/Vladimir_Kramnik" title="Vladimir Kramnik">Vladimir Kramnik</a>
+</td>
+<td>2753
+</td>
+<td>2020-01
+</td></tr>
+<tr>
+<td>18
+</td>
+<td><span class="flagicon"><a href="https://en.wikipedia.org/wiki/Russia" title="Russia"><img alt="Russia" src="//upload.wikimedia.org/wikipedia/en/thumb/f/f3/Flag_of_Russia.svg/23px-Flag_of_Russia.svg.png" decoding="async" width="23" height="15" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/en/thumb/f/f3/Flag_of_Russia.svg/35px-Flag_of_Russia.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/f/f3/Flag_of_Russia.svg/45px-Flag_of_Russia.svg.png 2x" data-file-width="900" data-file-height="600"></a></span>
+</td>
+<td><a href="https://en.wikipedia.org/wiki/Sergey_Karjakin" title="Sergey Karjakin">Sergey Karjakin</a>
+</td>
+<td>2752
+</td>
+<td>2020-01
+</td></tr>
+<tr>
+<td>19
+</td>
+<td><span class="flagicon"><a href="https://en.wikipedia.org/wiki/Russia" title="Russia"><img alt="Russia" src="//upload.wikimedia.org/wikipedia/en/thumb/f/f3/Flag_of_Russia.svg/23px-Flag_of_Russia.svg.png" decoding="async" width="23" height="15" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/en/thumb/f/f3/Flag_of_Russia.svg/35px-Flag_of_Russia.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/f/f3/Flag_of_Russia.svg/45px-Flag_of_Russia.svg.png 2x" data-file-width="900" data-file-height="600"></a></span>
+</td>
+<td><a href="https://en.wikipedia.org/wiki/Nikita_Vitiugov" title="Nikita Vitiugov">Nikita Vitiugov</a>
+</td>
+<td>2747
+</td>
+<td>2020-01
+</td></tr>
+<tr>
+<td>20
+</td>
+<td><span class="flagicon"><a href="https://en.wikipedia.org/wiki/Bulgaria" title="Bulgaria"><img alt="Bulgaria" src="//upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Flag_of_Bulgaria.svg/23px-Flag_of_Bulgaria.svg.png" decoding="async" width="23" height="14" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Flag_of_Bulgaria.svg/35px-Flag_of_Bulgaria.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Flag_of_Bulgaria.svg/46px-Flag_of_Bulgaria.svg.png 2x" data-file-width="1000" data-file-height="600"></a></span>
+</td>
+<td><a href="https://en.wikipedia.org/wiki/Veselin_Topalov" title="Veselin Topalov">Veselin Topalov</a>
+</td>
+<td>2738
+</td>
+<td>2020-01
+</td></tr></tbody><tfoot></tfoot></table>
+</div>
+<!--2020s end-->
+<!--2010s-->
+<button type="button" class="btn btn-outline-dark btn-lg btn-block" style="margin-bottom:20px;" onclick="myFunction('2010s')">
+<h6>
+2010s
+</h6>
+</button>
+<div id="2010s" style="display:none;">
+<table class="col-md-9 mx-auto table table-bordered" style="margin-top:20px;">
+<caption>Chess players ordered by peak FIDE rating in 2010s
+</caption>
+<thead class="thead-dark"><tr>
+<th class="headerSort" tabindex="0" role="columnheader button" title="Sort ascending">
+</th>
+<th class="headerSort" tabindex="0" role="columnheader button" title="Sort ascending">Country
+</th>
+<th class="headerSort" tabindex="0" role="columnheader button" title="Sort ascending">Player
+</th>
+<th class="headerSort" tabindex="0" role="columnheader button" title="Sort ascending">Peak rating in 2010s
+</th>
+<th class="headerSort" tabindex="0" role="columnheader button" title="Sort ascending">Achieved
+</th></tr></thead><tbody>
+<tr>
+<td>1
+</td>
+<td><span class="flagicon"><a href="https://en.wikipedia.org/wiki/Norway" title="Norway"><img alt="Norway" src="//upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Flag_of_Norway.svg/21px-Flag_of_Norway.svg.png" decoding="async" width="21" height="15" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Flag_of_Norway.svg/32px-Flag_of_Norway.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Flag_of_Norway.svg/41px-Flag_of_Norway.svg.png 2x" data-file-width="1100" data-file-height="800"></a></span>
+</td>
+<td><a href="https://en.wikipedia.org/wiki/Magnus_Carlsen" title="Magnus Carlsen">Magnus Carlsen</a>
+</td>
+<td>2882
+</td>
+<td>2014-05
+</td></tr>
+<tr>
+<td>2
+</td>
+<td><span class="flagicon"><a href="https://en.wikipedia.org/wiki/Italy" title="Italy"><img alt="Italy" src="//upload.wikimedia.org/wikipedia/en/thumb/0/03/Flag_of_Italy.svg/23px-Flag_of_Italy.svg.png" decoding="async" width="23" height="15" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/en/thumb/0/03/Flag_of_Italy.svg/35px-Flag_of_Italy.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/0/03/Flag_of_Italy.svg/45px-Flag_of_Italy.svg.png 2x" data-file-width="1500" data-file-height="1000"></a></span><span class="flagicon"><a href="https://en.wikipedia.org/wiki/United_States" title="United States"><img alt="United States" src="//upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/23px-Flag_of_the_United_States.svg.png" decoding="async" width="23" height="12" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/35px-Flag_of_the_United_States.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/46px-Flag_of_the_United_States.svg.png 2x" data-file-width="1235" data-file-height="650"></a></span>
+</td>
+<td><a href="https://en.wikipedia.org/wiki/Fabiano_Caruana" title="Fabiano Caruana">Fabiano Caruana</a>
+</td>
+<td>2844
+</td>
+<td>2014-10
+</td></tr>
+<tr>
+<td>3
+</td>
+<td><span class="flagicon"><a href="https://en.wikipedia.org/wiki/Armenia" title="Armenia"><img alt="Armenia" src="//upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Flag_of_Armenia.svg/23px-Flag_of_Armenia.svg.png" decoding="async" width="23" height="12" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Flag_of_Armenia.svg/35px-Flag_of_Armenia.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Flag_of_Armenia.svg/46px-Flag_of_Armenia.svg.png 2x" data-file-width="1200" data-file-height="600"></a></span>
+</td>
+<td><a href="https://en.wikipedia.org/wiki/Levon_Aronian" title="Levon Aronian">Levon Aronian</a>
+</td>
+<td>2830
+</td>
+<td>2014-03
+</td></tr>
+<tr>
+<td>4
+</td>
+<td><span class="flagicon"><a href="https://en.wikipedia.org/wiki/Philippines" title="Philippines"><img alt="Philippines" src="//upload.wikimedia.org/wikipedia/commons/thumb/9/99/Flag_of_the_Philippines.svg/23px-Flag_of_the_Philippines.svg.png" decoding="async" width="23" height="12" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/9/99/Flag_of_the_Philippines.svg/35px-Flag_of_the_Philippines.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/9/99/Flag_of_the_Philippines.svg/46px-Flag_of_the_Philippines.svg.png 2x" data-file-width="1200" data-file-height="600"></a></span><span class="flagicon"><a href="https://en.wikipedia.org/wiki/United_States" title="United States"><img alt="United States" src="//upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/23px-Flag_of_the_United_States.svg.png" decoding="async" width="23" height="12" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/35px-Flag_of_the_United_States.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/46px-Flag_of_the_United_States.svg.png 2x" data-file-width="1235" data-file-height="650"></a></span>
+</td>
+<td><a href="https://en.wikipedia.org/wiki/Wesley_So" title="Wesley So">Wesley So</a>
+</td>
+<td>2822
+</td>
+<td>2017-02
+</td></tr>
+<tr>
+<td>5
+</td>
+<td><span class="flagicon"><a href="https://en.wikipedia.org/wiki/Azerbaijan" title="Azerbaijan"><img alt="Azerbaijan" src="//upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Flag_of_Azerbaijan.svg/23px-Flag_of_Azerbaijan.svg.png" decoding="async" width="23" height="12" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Flag_of_Azerbaijan.svg/35px-Flag_of_Azerbaijan.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Flag_of_Azerbaijan.svg/46px-Flag_of_Azerbaijan.svg.png 2x" data-file-width="1200" data-file-height="600"></a></span>
+</td>
+<td><a href="https://en.wikipedia.org/wiki/Shakhriyar_Mamedyarov" title="Shakhriyar Mamedyarov">Shakhriyar Mamedyarov</a>
+</td>
+<td>2820
+</td>
+<td>2018-09
+</td></tr>
+<tr>
+<td>6
+</td>
+<td><span class="flagicon"><a href="https://en.wikipedia.org/wiki/France" title="France"><img alt="France" src="//upload.wikimedia.org/wikipedia/en/thumb/c/c3/Flag_of_France.svg/23px-Flag_of_France.svg.png" decoding="async" width="23" height="15" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/en/thumb/c/c3/Flag_of_France.svg/35px-Flag_of_France.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/c/c3/Flag_of_France.svg/45px-Flag_of_France.svg.png 2x" data-file-width="900" data-file-height="600"></a></span>
+</td>
+<td><a href="https://en.wikipedia.org/wiki/Maxime_Vachier-Lagrave" title="Maxime Vachier-Lagrave">Maxime Vachier-Lagrave</a>
+</td>
+<td>2819
+</td>
+<td>2016-08
+</td></tr>
+<tr>
+<td>7=
+</td>
+<td><span class="flagicon"><a href="https://en.wikipedia.org/wiki/India" title="India"><img alt="India" src="//upload.wikimedia.org/wikipedia/en/thumb/4/41/Flag_of_India.svg/23px-Flag_of_India.svg.png" decoding="async" width="23" height="15" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/en/thumb/4/41/Flag_of_India.svg/35px-Flag_of_India.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/4/41/Flag_of_India.svg/45px-Flag_of_India.svg.png 2x" data-file-width="1350" data-file-height="900"></a></span>
+</td>
+<td><a href="https://en.wikipedia.org/wiki/Viswanathan_Anand" title="Viswanathan Anand">Viswanathan Anand</a>
+</td>
+<td>2817
+</td>
+<td>2011-09
+</td></tr>
+<tr>
+<td>7=
+</td>
+<td><span class="flagicon"><a href="https://en.wikipedia.org/wiki/Russia" title="Russia"><img alt="Russia" src="//upload.wikimedia.org/wikipedia/en/thumb/f/f3/Flag_of_Russia.svg/23px-Flag_of_Russia.svg.png" decoding="async" width="23" height="15" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/en/thumb/f/f3/Flag_of_Russia.svg/35px-Flag_of_Russia.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/f/f3/Flag_of_Russia.svg/45px-Flag_of_Russia.svg.png 2x" data-file-width="900" data-file-height="600"></a></span>
+</td>
+<td><a href="https://en.wikipedia.org/wiki/Vladimir_Kramnik" title="Vladimir Kramnik">Vladimir Kramnik</a>
+</td>
+<td>2817
+</td>
+<td>2016-10
+</td></tr>
+<tr>
+<td>9=
+</td>
+<td><span class="flagicon"><a href="https://en.wikipedia.org/wiki/Bulgaria" title="Bulgaria"><img alt="Bulgaria" src="//upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Flag_of_Bulgaria.svg/23px-Flag_of_Bulgaria.svg.png" decoding="async" width="23" height="14" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Flag_of_Bulgaria.svg/35px-Flag_of_Bulgaria.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Flag_of_Bulgaria.svg/46px-Flag_of_Bulgaria.svg.png 2x" data-file-width="1000" data-file-height="600"></a></span>
+</td>
+<td><a href="https://en.wikipedia.org/wiki/Veselin_Topalov" title="Veselin Topalov">Veselin Topalov</a>
+</td>
+<td>2816
+</td>
+<td>2015-07
+</td></tr>
+<tr>
+<td>9=
+</td>
+<td><span class="flagicon"><a href="https://en.wikipedia.org/wiki/United_States" title="United States"><img alt="United States" src="//upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/23px-Flag_of_the_United_States.svg.png" decoding="async" width="23" height="12" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/35px-Flag_of_the_United_States.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/46px-Flag_of_the_United_States.svg.png 2x" data-file-width="1235" data-file-height="650"></a></span>
+</td>
+<td><a href="https://en.wikipedia.org/wiki/Hikaru_Nakamura" title="Hikaru Nakamura">Hikaru Nakamura</a>
+</td>
+<td>2816
+</td>
+<td>2015-10
+</td></tr>
+<tr>
+<td>9=
+</td>
+<td><span class="flagicon"><a href="https://en.wikipedia.org/wiki/China" title="China"><img alt="China" src="//upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Flag_of_the_People%27s_Republic_of_China.svg/23px-Flag_of_the_People%27s_Republic_of_China.svg.png" decoding="async" width="23" height="15" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Flag_of_the_People%27s_Republic_of_China.svg/35px-Flag_of_the_People%27s_Republic_of_China.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Flag_of_the_People%27s_Republic_of_China.svg/45px-Flag_of_the_People%27s_Republic_of_China.svg.png 2x" data-file-width="900" data-file-height="600"></a></span>
+</td>
+<td><a href="https://en.wikipedia.org/wiki/Ding_Liren" title="Ding Liren">Ding Liren</a>
+</td>
+<td>2816
+</td>
+<td>2018-11
+</td></tr>
+<tr>
+<td>12
+</td>
+<td><span class="flagicon"><a href="https://en.wikipedia.org/wiki/Russia" title="Russia"><img alt="Russia" src="//upload.wikimedia.org/wikipedia/en/thumb/f/f3/Flag_of_Russia.svg/23px-Flag_of_Russia.svg.png" decoding="async" width="23" height="15" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/en/thumb/f/f3/Flag_of_Russia.svg/35px-Flag_of_Russia.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/f/f3/Flag_of_Russia.svg/45px-Flag_of_Russia.svg.png 2x" data-file-width="900" data-file-height="600"></a></span>
+</td>
+<td><a href="https://en.wikipedia.org/wiki/Alexander_Grischuk" title="Alexander Grischuk">Alexander Grischuk</a>
+</td>
+<td>2810
+</td>
+<td>2014-12
+</td></tr>
+<tr>
+<td>13
+</td>
+<td><span class="flagicon"><a href="https://en.wikipedia.org/wiki/Netherlands" title="Netherlands"><img alt="Netherlands" src="//upload.wikimedia.org/wikipedia/commons/thumb/2/20/Flag_of_the_Netherlands.svg/23px-Flag_of_the_Netherlands.svg.png" decoding="async" width="23" height="15" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/2/20/Flag_of_the_Netherlands.svg/35px-Flag_of_the_Netherlands.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/2/20/Flag_of_the_Netherlands.svg/45px-Flag_of_the_Netherlands.svg.png 2x" data-file-width="900" data-file-height="600"></a></span>
+</td>
+<td><a href="https://en.wikipedia.org/wiki/Anish_Giri" title="Anish Giri">Anish Giri</a>
+</td>
+<td>2798
+</td>
+<td>2015-10
+</td></tr>
+<tr>
+<td>14
+</td>
+<td><span class="flagicon"><a href="https://en.wikipedia.org/wiki/Azerbaijan" title="Azerbaijan"><img alt="Azerbaijan" src="//upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Flag_of_Azerbaijan.svg/23px-Flag_of_Azerbaijan.svg.png" decoding="async" width="23" height="12" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Flag_of_Azerbaijan.svg/35px-Flag_of_Azerbaijan.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Flag_of_Azerbaijan.svg/46px-Flag_of_Azerbaijan.svg.png 2x" data-file-width="1200" data-file-height="600"></a></span>
+</td>
+<td><a href="https://en.wikipedia.org/wiki/Teimour_Radjabov" title="Teimour Radjabov">Teimour Radjabov</a>
+</td>
+<td>2793
+</td>
+<td>2012-10
+</td></tr>
+<tr>
+<td>15
+</td>
+<td><span class="flagicon"><a href="https://en.wikipedia.org/wiki/Russia" title="Russia"><img alt="Russia" src="//upload.wikimedia.org/wikipedia/en/thumb/f/f3/Flag_of_Russia.svg/23px-Flag_of_Russia.svg.png" decoding="async" width="23" height="15" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/en/thumb/f/f3/Flag_of_Russia.svg/35px-Flag_of_Russia.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/f/f3/Flag_of_Russia.svg/45px-Flag_of_Russia.svg.png 2x" data-file-width="900" data-file-height="600"></a></span>
+</td>
+<td><a href="https://en.wikipedia.org/wiki/Sergey_Karjakin" title="Sergey Karjakin">Sergey Karjakin</a>
+</td>
+<td>2788
+</td>
+<td>2011-07
+</td></tr>
+<tr>
+<td>16
+</td>
+<td><span class="flagicon"><a href="https://en.wikipedia.org/wiki/Ukraine" title="Ukraine"><img alt="Ukraine" src="//upload.wikimedia.org/wikipedia/commons/thumb/4/49/Flag_of_Ukraine.svg/23px-Flag_of_Ukraine.svg.png" decoding="async" width="23" height="15" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/4/49/Flag_of_Ukraine.svg/35px-Flag_of_Ukraine.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/4/49/Flag_of_Ukraine.svg/45px-Flag_of_Ukraine.svg.png 2x" data-file-width="1200" data-file-height="800"></a></span>
+</td>
+<td><a href="https://en.wikipedia.org/wiki/Vassily_Ivanchuk" class="mw-redirect" title="Vassily Ivanchuk">Vassily Ivanchuk</a>
+</td>
+<td>2779
+</td>
+<td>2011-03
+</td></tr>
+<tr>
+<td>17
+</td>
+<td><span class="flagicon"><a href="https://en.wikipedia.org/wiki/Israel" title="Israel"><img alt="Israel" src="//upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Flag_of_Israel.svg/21px-Flag_of_Israel.svg.png" decoding="async" width="21" height="15" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Flag_of_Israel.svg/32px-Flag_of_Israel.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Flag_of_Israel.svg/41px-Flag_of_Israel.svg.png 2x" data-file-width="660" data-file-height="480"></a></span>
+</td>
+<td><a href="https://en.wikipedia.org/wiki/Boris_Gelfand" title="Boris Gelfand">Boris Gelfand</a>
+</td>
+<td>2777
+</td>
+<td>2013-11
+</td></tr>
+<tr>
+<td>18
+</td>
+<td><span class="flagicon"><a href="https://en.wikipedia.org/wiki/Russia" title="Russia"><img alt="Russia" src="//upload.wikimedia.org/wikipedia/en/thumb/f/f3/Flag_of_Russia.svg/23px-Flag_of_Russia.svg.png" decoding="async" width="23" height="15" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/en/thumb/f/f3/Flag_of_Russia.svg/35px-Flag_of_Russia.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/f/f3/Flag_of_Russia.svg/45px-Flag_of_Russia.svg.png 2x" data-file-width="900" data-file-height="600"></a></span>
+</td>
+<td><a href="https://en.wikipedia.org/wiki/Ian_Nepomniachtchi" title="Ian Nepomniachtchi">Ian Nepomniachtchi</a>
+</td>
+<td>2776
+</td>
+<td>2019-09
+</td></tr>
+<tr>
+<td>19=
+</td>
+<td><span class="flagicon"><a href="https://en.wikipedia.org/wiki/Russia" title="Russia"><img alt="Russia" src="//upload.wikimedia.org/wikipedia/en/thumb/f/f3/Flag_of_Russia.svg/23px-Flag_of_Russia.svg.png" decoding="async" width="23" height="15" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/en/thumb/f/f3/Flag_of_Russia.svg/35px-Flag_of_Russia.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/f/f3/Flag_of_Russia.svg/45px-Flag_of_Russia.svg.png 2x" data-file-width="900" data-file-height="600"></a></span>
+</td>
+<td><a href="https://en.wikipedia.org/wiki/Alexander_Morozevich" title="Alexander Morozevich">Alexander Morozevich</a>
+</td>
+<td>2770
+</td>
+<td>2012-07
+</td></tr>
+<tr>
+<td>19=
+</td>
+<td><span class="flagicon"><a href="https://en.wikipedia.org/wiki/India" title="India"><img alt="India" src="//upload.wikimedia.org/wikipedia/en/thumb/4/41/Flag_of_India.svg/23px-Flag_of_India.svg.png" decoding="async" width="23" height="15" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/en/thumb/4/41/Flag_of_India.svg/35px-Flag_of_India.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/4/41/Flag_of_India.svg/45px-Flag_of_India.svg.png 2x" data-file-width="1350" data-file-height="900"></a></span>
+</td>
+<td><a href="https://en.wikipedia.org/wiki/Pentala_Harikrishna" title="Pentala Harikrishna">Pentala Harikrishna</a>
+</td>
+<td>2770
+</td>
+<td>2016-12
+</td></tr></tbody><tfoot></tfoot></table></div>
+<!--2010s end-->
+<!--2000s-->
+<button type="button" class="btn btn-outline-dark btn-lg btn-block" style="margin-bottom:20px;" onclick="myFunction('2000s')">
+<h6>
+2000s
+</h6>
+</button>
+<div id="2000s" style="display:none;">
+<table class="col-md-9 mx-auto table table-bordered" style="margin-top:20px;">
+<caption>Chess players ordered by peak FIDE rating in 2000s
+</caption>
+<thead class="thead-dark"><tr>
+<th class="headerSort" tabindex="0" role="columnheader button" title="Sort ascending">
+</th>
+<th class="headerSort" tabindex="0" role="columnheader button" title="Sort ascending">Country
+</th>
+<th class="headerSort" tabindex="0" role="columnheader button" title="Sort ascending">Player
+</th>
+<th class="headerSort" tabindex="0" role="columnheader button" title="Sort ascending">Peak rating in 2000s
+</th>
+<th class="headerSort" tabindex="0" role="columnheader button" title="Sort ascending">Achieved
+</th></tr></thead><tbody>
+<tr>
+<td>1
+</td>
+<td><span class="flagicon"><a href="https://en.wikipedia.org/wiki/Russia" title="Russia"><img alt="Russia" src="//upload.wikimedia.org/wikipedia/en/thumb/f/f3/Flag_of_Russia.svg/23px-Flag_of_Russia.svg.png" decoding="async" width="23" height="15" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/en/thumb/f/f3/Flag_of_Russia.svg/35px-Flag_of_Russia.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/f/f3/Flag_of_Russia.svg/45px-Flag_of_Russia.svg.png 2x" data-file-width="900" data-file-height="600"></a></span>
+</td>
+<td><a href="https://en.wikipedia.org/wiki/Garry_Kasparov" title="Garry Kasparov">Garry Kasparov</a>
+</td>
+<td>2851
+</td>
+<td>2000-01
+</td></tr>
+<tr>
+<td>2
+</td>
+<td><span class="flagicon"><a href="https://en.wikipedia.org/wiki/Bulgaria" title="Bulgaria"><img alt="Bulgaria" src="//upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Flag_of_Bulgaria.svg/23px-Flag_of_Bulgaria.svg.png" decoding="async" width="23" height="14" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Flag_of_Bulgaria.svg/35px-Flag_of_Bulgaria.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Flag_of_Bulgaria.svg/46px-Flag_of_Bulgaria.svg.png 2x" data-file-width="1000" data-file-height="600"></a></span>
+</td>
+<td><a href="https://en.wikipedia.org/wiki/Veselin_Topalov" title="Veselin Topalov">Veselin Topalov</a>
+</td>
+<td>2813
+</td>
+<td>2006-07
+</td></tr>
+<tr>
+<td>3
+</td>
+<td><span class="flagicon"><a href="https://en.wikipedia.org/wiki/Russia" title="Russia"><img alt="Russia" src="//upload.wikimedia.org/wikipedia/en/thumb/f/f3/Flag_of_Russia.svg/23px-Flag_of_Russia.svg.png" decoding="async" width="23" height="15" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/en/thumb/f/f3/Flag_of_Russia.svg/35px-Flag_of_Russia.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/f/f3/Flag_of_Russia.svg/45px-Flag_of_Russia.svg.png 2x" data-file-width="900" data-file-height="600"></a></span>
+</td>
+<td><a href="https://en.wikipedia.org/wiki/Vladimir_Kramnik" title="Vladimir Kramnik">Vladimir Kramnik</a>
+</td>
+<td>2809
+</td>
+<td>2002-01
+</td></tr>
+<tr>
+<td>4
+</td>
+<td><span class="flagicon"><a href="https://en.wikipedia.org/wiki/India" title="India"><img alt="India" src="//upload.wikimedia.org/wikipedia/en/thumb/4/41/Flag_of_India.svg/23px-Flag_of_India.svg.png" decoding="async" width="23" height="15" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/en/thumb/4/41/Flag_of_India.svg/35px-Flag_of_India.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/4/41/Flag_of_India.svg/45px-Flag_of_India.svg.png 2x" data-file-width="1350" data-file-height="900"></a></span>
+</td>
+<td><a href="https://en.wikipedia.org/wiki/Viswanathan_Anand" title="Viswanathan Anand">Viswanathan Anand</a>
+</td>
+<td>2803
+</td>
+<td>2006-04
+</td></tr>
+<tr>
+<td>5
+</td>
+<td><span class="flagicon"><a href="https://en.wikipedia.org/wiki/Norway" title="Norway"><img alt="Norway" src="//upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Flag_of_Norway.svg/21px-Flag_of_Norway.svg.png" decoding="async" width="21" height="15" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Flag_of_Norway.svg/32px-Flag_of_Norway.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Flag_of_Norway.svg/41px-Flag_of_Norway.svg.png 2x" data-file-width="1100" data-file-height="800"></a></span>
+</td>
+<td><a href="https://en.wikipedia.org/wiki/Magnus_Carlsen" title="Magnus Carlsen">Magnus Carlsen</a>
+</td>
+<td>2801
+</td>
+<td>2009-11
+</td></tr>
+<tr>
+<td>6
+</td>
+<td><span class="flagicon"><a href="https://en.wikipedia.org/wiki/Russia" title="Russia"><img alt="Russia" src="//upload.wikimedia.org/wikipedia/en/thumb/f/f3/Flag_of_Russia.svg/23px-Flag_of_Russia.svg.png" decoding="async" width="23" height="15" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/en/thumb/f/f3/Flag_of_Russia.svg/35px-Flag_of_Russia.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/f/f3/Flag_of_Russia.svg/45px-Flag_of_Russia.svg.png 2x" data-file-width="900" data-file-height="600"></a></span>
+</td>
+<td><a href="https://en.wikipedia.org/wiki/Alexander_Morozevich" title="Alexander Morozevich">Alexander Morozevich</a>
+</td>
+<td>2788
+</td>
+<td>2008-07
+</td></tr>
+<tr>
+<td>7
+</td>
+<td><span class="flagicon"><a href="https://en.wikipedia.org/wiki/Ukraine" title="Ukraine"><img alt="Ukraine" src="//upload.wikimedia.org/wikipedia/commons/thumb/4/49/Flag_of_Ukraine.svg/23px-Flag_of_Ukraine.svg.png" decoding="async" width="23" height="15" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/4/49/Flag_of_Ukraine.svg/35px-Flag_of_Ukraine.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/4/49/Flag_of_Ukraine.svg/45px-Flag_of_Ukraine.svg.png 2x" data-file-width="1200" data-file-height="800"></a></span>
+</td>
+<td><a href="https://en.wikipedia.org/wiki/Vassily_Ivanchuk" class="mw-redirect" title="Vassily Ivanchuk">Vassily Ivanchuk</a>
+</td>
+<td>2787
+</td>
+<td>2007-10
+</td></tr>
+<tr>
+<td>8
+</td>
+<td><span class="flagicon"><a href="https://en.wikipedia.org/wiki/Armenia" title="Armenia"><img alt="Armenia" src="//upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Flag_of_Armenia.svg/23px-Flag_of_Armenia.svg.png" decoding="async" width="23" height="12" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Flag_of_Armenia.svg/35px-Flag_of_Armenia.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Flag_of_Armenia.svg/46px-Flag_of_Armenia.svg.png 2x" data-file-width="1200" data-file-height="600"></a></span><span class="flagicon"><a href="https://en.wikipedia.org/wiki/Germany" title="Germany"><img alt="Germany" src="//upload.wikimedia.org/wikipedia/en/thumb/b/ba/Flag_of_Germany.svg/23px-Flag_of_Germany.svg.png" decoding="async" width="23" height="14" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/en/thumb/b/ba/Flag_of_Germany.svg/35px-Flag_of_Germany.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/b/ba/Flag_of_Germany.svg/46px-Flag_of_Germany.svg.png 2x" data-file-width="1000" data-file-height="600"></a></span><span class="flagicon"><a href="https://en.wikipedia.org/wiki/Armenia" title="Armenia"><img alt="Armenia" src="//upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Flag_of_Armenia.svg/23px-Flag_of_Armenia.svg.png" decoding="async" width="23" height="12" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Flag_of_Armenia.svg/35px-Flag_of_Armenia.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Flag_of_Armenia.svg/46px-Flag_of_Armenia.svg.png 2x" data-file-width="1200" data-file-height="600"></a></span>
+</td>
+<td><a href="https://en.wikipedia.org/wiki/Levon_Aronian" title="Levon Aronian">Levon Aronian</a>
+</td>
+<td>2786
+</td>
+<td>2009-11
+</td></tr>
+<tr>
+<td>9
+</td>
+<td><span class="flagicon"><a href="https://en.wikipedia.org/wiki/Russia" title="Russia"><img alt="Russia" src="//upload.wikimedia.org/wikipedia/en/thumb/f/f3/Flag_of_Russia.svg/23px-Flag_of_Russia.svg.png" decoding="async" width="23" height="15" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/en/thumb/f/f3/Flag_of_Russia.svg/35px-Flag_of_Russia.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/f/f3/Flag_of_Russia.svg/45px-Flag_of_Russia.svg.png 2x" data-file-width="900" data-file-height="600"></a></span>
+</td>
+<td><a href="https://en.wikipedia.org/wiki/Peter_Svidler" title="Peter Svidler">Peter Svidler</a>
+</td>
+<td>2765
+</td>
+<td>2006-01
+</td></tr>
+<tr>
+<td>10
+</td>
+<td><span class="flagicon"><a href="https://en.wikipedia.org/wiki/Hungary" title="Hungary"><img alt="Hungary" src="//upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Flag_of_Hungary.svg/23px-Flag_of_Hungary.svg.png" decoding="async" width="23" height="12" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Flag_of_Hungary.svg/35px-Flag_of_Hungary.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Flag_of_Hungary.svg/46px-Flag_of_Hungary.svg.png 2x" data-file-width="1200" data-file-height="600"></a></span>
+</td>
+<td><a href="https://en.wikipedia.org/wiki/Peter_Leko" title="Peter Leko">Peter Leko</a>
+</td>
+<td>2763
+</td>
+<td>2005-04
+</td></tr>
+<tr>
+<td>11
+</td>
+<td><span class="flagicon"><a href="https://en.wikipedia.org/wiki/Azerbaijan" title="Azerbaijan"><img alt="Azerbaijan" src="//upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Flag_of_Azerbaijan.svg/23px-Flag_of_Azerbaijan.svg.png" decoding="async" width="23" height="12" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Flag_of_Azerbaijan.svg/35px-Flag_of_Azerbaijan.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Flag_of_Azerbaijan.svg/46px-Flag_of_Azerbaijan.svg.png 2x" data-file-width="1200" data-file-height="600"></a></span>
+</td>
+<td><a href="https://en.wikipedia.org/wiki/Teimour_Radjabov" title="Teimour Radjabov">Teimour Radjabov</a>
+</td>
+<td>2761
+</td>
+<td>2009-01
+</td></tr>
+<tr>
+<td>12=
+</td>
+<td><span class="flagicon"><a href="https://en.wikipedia.org/wiki/Azerbaijan" title="Azerbaijan"><img alt="Azerbaijan" src="//upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Flag_of_Azerbaijan.svg/23px-Flag_of_Azerbaijan.svg.png" decoding="async" width="23" height="12" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Flag_of_Azerbaijan.svg/35px-Flag_of_Azerbaijan.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Flag_of_Azerbaijan.svg/46px-Flag_of_Azerbaijan.svg.png 2x" data-file-width="1200" data-file-height="600"></a></span>
+</td>
+<td><a href="https://en.wikipedia.org/wiki/Shakhriyar_Mamedyarov" title="Shakhriyar Mamedyarov">Shakhriyar Mamedyarov</a>
+</td>
+<td>2760
+</td>
+<td>2008-01
+</td></tr>
+<tr>
+<td>12=
+</td>
+<td><span class="flagicon"><a href="https://en.wikipedia.org/wiki/Russia" title="Russia"><img alt="Russia" src="//upload.wikimedia.org/wikipedia/en/thumb/f/f3/Flag_of_Russia.svg/23px-Flag_of_Russia.svg.png" decoding="async" width="23" height="15" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/en/thumb/f/f3/Flag_of_Russia.svg/35px-Flag_of_Russia.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/f/f3/Flag_of_Russia.svg/45px-Flag_of_Russia.svg.png 2x" data-file-width="900" data-file-height="600"></a></span>
+</td>
+<td><a href="https://en.wikipedia.org/wiki/Dmitry_Jakovenko" title="Dmitry Jakovenko">Dmitry Jakovenko</a>
+</td>
+<td>2760
+</td>
+<td>2009-01
+</td></tr>
+<tr>
+<td>14
+</td>
+<td><span class="flagicon"><a href="https://en.wikipedia.org/wiki/Azerbaijan" title="Azerbaijan"><img alt="Azerbaijan" src="//upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Flag_of_Azerbaijan.svg/23px-Flag_of_Azerbaijan.svg.png" decoding="async" width="23" height="12" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Flag_of_Azerbaijan.svg/35px-Flag_of_Azerbaijan.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Flag_of_Azerbaijan.svg/46px-Flag_of_Azerbaijan.svg.png 2x" data-file-width="1200" data-file-height="600"></a></span>
+</td>
+<td><a href="https://en.wikipedia.org/wiki/Vugar_Gashimov" title="Vugar Gashimov">Vugar Gashimov</a>
+</td>
+<td>2758
+</td>
+<td>2009-11
+</td></tr>
+<tr>
+<td>15
+</td>
+<td><span class="flagicon"><a href="https://en.wikipedia.org/wiki/Israel" title="Israel"><img alt="Israel" src="//upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Flag_of_Israel.svg/21px-Flag_of_Israel.svg.png" decoding="async" width="21" height="15" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Flag_of_Israel.svg/32px-Flag_of_Israel.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Flag_of_Israel.svg/41px-Flag_of_Israel.svg.png 2x" data-file-width="660" data-file-height="480"></a></span>
+</td>
+<td><a href="https://en.wikipedia.org/wiki/Boris_Gelfand" title="Boris Gelfand">Boris Gelfand</a>
+</td>
+<td>2758
+</td>
+<td>2009-11
+</td></tr>
+<tr>
+<td>16=
+</td>
+<td><span class="flagicon"><a href="https://en.wikipedia.org/wiki/Spain" title="Spain"><img alt="Spain" src="//upload.wikimedia.org/wikipedia/en/thumb/9/9a/Flag_of_Spain.svg/23px-Flag_of_Spain.svg.png" decoding="async" width="23" height="15" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/en/thumb/9/9a/Flag_of_Spain.svg/35px-Flag_of_Spain.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/9/9a/Flag_of_Spain.svg/45px-Flag_of_Spain.svg.png 2x" data-file-width="750" data-file-height="500"></a></span>
+</td>
+<td><a href="https://en.wikipedia.org/wiki/Alexei_Shirov" title="Alexei Shirov">Alexei Shirov</a>
+</td>
+<td>2755
+</td>
+<td>2008-01
+</td></tr>
+<tr>
+<td>16=
+</td>
+<td><span class="flagicon"><a href="https://en.wikipedia.org/wiki/England" title="England"><img alt="England" src="//upload.wikimedia.org/wikipedia/en/thumb/b/be/Flag_of_England.svg/23px-Flag_of_England.svg.png" decoding="async" width="23" height="14" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/en/thumb/b/be/Flag_of_England.svg/35px-Flag_of_England.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/b/be/Flag_of_England.svg/46px-Flag_of_England.svg.png 2x" data-file-width="800" data-file-height="480"></a></span>
+</td>
+<td><a href="https://en.wikipedia.org/wiki/Michael_Adams_(chess_player)" title="Michael Adams (chess player)">Michael Adams</a>
+</td>
+<td>2755
+</td>
+<td>2000-07
+</td></tr>
+<tr>
+<td>18
+</td>
+<td><span class="flagicon"><a href="https://en.wikipedia.org/wiki/Czech_Republic" title="Czech Republic"><img alt="Czech Republic" src="//upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Flag_of_the_Czech_Republic.svg/23px-Flag_of_the_Czech_Republic.svg.png" decoding="async" width="23" height="15" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Flag_of_the_Czech_Republic.svg/35px-Flag_of_the_Czech_Republic.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Flag_of_the_Czech_Republic.svg/45px-Flag_of_the_Czech_Republic.svg.png 2x" data-file-width="900" data-file-height="600"></a></span><span class="flagicon"><a href="https://en.wikipedia.org/wiki/Slovakia" title="Slovakia"><img alt="Slovakia" src="//upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Flag_of_Slovakia.svg/23px-Flag_of_Slovakia.svg.png" decoding="async" width="23" height="15" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Flag_of_Slovakia.svg/35px-Flag_of_Slovakia.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Flag_of_Slovakia.svg/45px-Flag_of_Slovakia.svg.png 2x" data-file-width="512" data-file-height="341"></a></span>
+</td>
+<td><a href="https://en.wikipedia.org/wiki/Sergei_Movsesian" title="Sergei Movsesian">Sergei Movsesian</a>
+</td>
+<td>2751
+</td>
+<td>2009-01
+</td></tr>
+<tr>
+<td>19
+</td>
+<td><span class="flagicon"><a href="https://en.wikipedia.org/wiki/Russia" title="Russia"><img alt="Russia" src="//upload.wikimedia.org/wikipedia/en/thumb/f/f3/Flag_of_Russia.svg/23px-Flag_of_Russia.svg.png" decoding="async" width="23" height="15" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/en/thumb/f/f3/Flag_of_Russia.svg/35px-Flag_of_Russia.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/f/f3/Flag_of_Russia.svg/45px-Flag_of_Russia.svg.png 2x" data-file-width="900" data-file-height="600"></a></span>
+</td>
+<td><a href="https://en.wikipedia.org/wiki/Alexander_Grischuk" title="Alexander Grischuk">Alexander Grischuk</a>
+</td>
+<td>2748
+</td>
+<td>2009-04
+</td></tr>
+<tr>
+<td>20
+</td>
+<td><span class="flagicon"><a href="https://en.wikipedia.org/wiki/Ukraine" title="Ukraine"><img alt="Ukraine" src="//upload.wikimedia.org/wikipedia/commons/thumb/4/49/Flag_of_Ukraine.svg/23px-Flag_of_Ukraine.svg.png" decoding="async" width="23" height="15" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/4/49/Flag_of_Ukraine.svg/35px-Flag_of_Ukraine.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/4/49/Flag_of_Ukraine.svg/45px-Flag_of_Ukraine.svg.png 2x" data-file-width="1200" data-file-height="800"></a></span>
+</td>
+<td><a href="https://en.wikipedia.org/wiki/Ruslan_Ponomariov" title="Ruslan Ponomariov">Ruslan Ponomariov</a>
+</td>
+<td>2741
+</td>
+<td>2009-09
+</td></tr></tbody><tfoot></tfoot></table></div>
+<!--2000s end-->
+<!--1990s-->
+<button type="button" class="btn btn-outline-dark btn-lg btn-block" style="margin-bottom:20px;" onclick="myFunction('1990s')">
+<h6>
+1990s
+</h6>
+</button>
+<div id="1990s" style="display:none;">
+<table class="col-md-9 mx-auto table table-bordered" style="margin-top:20px;">
+<caption>Chess players ordered by peak FIDE rating in 1990s
+</caption>
+<thead class="thead-dark"><tr>
+<th class="headerSort" tabindex="0" role="columnheader button" title="Sort ascending">
+</th>
+<th class="headerSort" tabindex="0" role="columnheader button" title="Sort ascending">Country
+</th>
+<th class="headerSort" tabindex="0" role="columnheader button" title="Sort ascending">Player
+</th>
+<th class="headerSort" tabindex="0" role="columnheader button" title="Sort ascending">Peak rating in 1990s
+</th>
+<th class="headerSort" tabindex="0" role="columnheader button" title="Sort ascending">Achieved
+</th></tr></thead><tbody>
+<tr>
+<td>1
+</td>
+<td><span class="flagicon"><a href="https://en.wikipedia.org/wiki/Soviet_Union" title="Soviet Union"><img alt="Soviet Union" src="//upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_the_Soviet_Union.svg/23px-Flag_of_the_Soviet_Union.svg.png" decoding="async" width="23" height="12" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_the_Soviet_Union.svg/35px-Flag_of_the_Soviet_Union.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_the_Soviet_Union.svg/46px-Flag_of_the_Soviet_Union.svg.png 2x" data-file-width="1200" data-file-height="600"></a></span><span class="flagicon"><a href="https://en.wikipedia.org/wiki/Russia" title="Russia"><img alt="Russia" src="//upload.wikimedia.org/wikipedia/en/thumb/f/f3/Flag_of_Russia.svg/23px-Flag_of_Russia.svg.png" decoding="async" width="23" height="15" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/en/thumb/f/f3/Flag_of_Russia.svg/35px-Flag_of_Russia.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/f/f3/Flag_of_Russia.svg/45px-Flag_of_Russia.svg.png 2x" data-file-width="900" data-file-height="600"></a></span>
+</td>
+<td><a href="https://en.wikipedia.org/wiki/Garry_Kasparov" title="Garry Kasparov">Garry Kasparov</a>
+</td>
+<td>2851
+</td>
+<td>1999-07
+</td></tr>
+<tr>
+<td>2
+</td>
+<td><span class="flagicon"><a href="https://en.wikipedia.org/wiki/India" title="India"><img alt="India" src="//upload.wikimedia.org/wikipedia/en/thumb/4/41/Flag_of_India.svg/23px-Flag_of_India.svg.png" decoding="async" width="23" height="15" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/en/thumb/4/41/Flag_of_India.svg/35px-Flag_of_India.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/4/41/Flag_of_India.svg/45px-Flag_of_India.svg.png 2x" data-file-width="1350" data-file-height="900"></a></span>
+</td>
+<td><a href="https://en.wikipedia.org/wiki/Viswanathan_Anand" title="Viswanathan Anand">Viswanathan Anand</a>
+</td>
+<td>2795
+</td>
+<td>1998-07
+</td></tr>
+<tr>
+<td>3
+</td>
+<td><span class="flagicon"><a href="https://en.wikipedia.org/wiki/Soviet_Union" title="Soviet Union"><img alt="Soviet Union" src="//upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_the_Soviet_Union.svg/23px-Flag_of_the_Soviet_Union.svg.png" decoding="async" width="23" height="12" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_the_Soviet_Union.svg/35px-Flag_of_the_Soviet_Union.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_the_Soviet_Union.svg/46px-Flag_of_the_Soviet_Union.svg.png 2x" data-file-width="1200" data-file-height="600"></a></span><span class="flagicon"><a href="https://en.wikipedia.org/wiki/Russia" title="Russia"><img alt="Russia" src="//upload.wikimedia.org/wikipedia/en/thumb/f/f3/Flag_of_Russia.svg/23px-Flag_of_Russia.svg.png" decoding="async" width="23" height="15" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/en/thumb/f/f3/Flag_of_Russia.svg/35px-Flag_of_Russia.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/f/f3/Flag_of_Russia.svg/45px-Flag_of_Russia.svg.png 2x" data-file-width="900" data-file-height="600"></a></span>
+</td>
+<td><a href="https://en.wikipedia.org/wiki/Vladimir_Kramnik" title="Vladimir Kramnik">Vladimir Kramnik</a>
+</td>
+<td>2790
+</td>
+<td>1998-01
+</td></tr>
+<tr>
+<td>4
+</td>
+<td><span class="flagicon"><a href="https://en.wikipedia.org/wiki/Soviet_Union" title="Soviet Union"><img alt="Soviet Union" src="//upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_the_Soviet_Union.svg/23px-Flag_of_the_Soviet_Union.svg.png" decoding="async" width="23" height="12" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_the_Soviet_Union.svg/35px-Flag_of_the_Soviet_Union.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_the_Soviet_Union.svg/46px-Flag_of_the_Soviet_Union.svg.png 2x" data-file-width="1200" data-file-height="600"></a></span><span class="flagicon"><a href="https://en.wikipedia.org/wiki/Russia" title="Russia"><img alt="Russia" src="//upload.wikimedia.org/wikipedia/en/thumb/f/f3/Flag_of_Russia.svg/23px-Flag_of_Russia.svg.png" decoding="async" width="23" height="15" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/en/thumb/f/f3/Flag_of_Russia.svg/35px-Flag_of_Russia.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/f/f3/Flag_of_Russia.svg/45px-Flag_of_Russia.svg.png 2x" data-file-width="900" data-file-height="600"></a></span>
+</td>
+<td><a href="https://en.wikipedia.org/wiki/Anatoly_Karpov" title="Anatoly Karpov">Anatoly Karpov</a>
+</td>
+<td>2780
+</td>
+<td>1994-07
+</td></tr>
+<tr>
+<td>5
+</td>
+<td><span class="flagicon"><a href="https://en.wikipedia.org/wiki/Russia" title="Russia"><img alt="Russia" src="//upload.wikimedia.org/wikipedia/en/thumb/f/f3/Flag_of_Russia.svg/23px-Flag_of_Russia.svg.png" decoding="async" width="23" height="15" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/en/thumb/f/f3/Flag_of_Russia.svg/35px-Flag_of_Russia.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/f/f3/Flag_of_Russia.svg/45px-Flag_of_Russia.svg.png 2x" data-file-width="900" data-file-height="600"></a></span>
+</td>
+<td><a href="https://en.wikipedia.org/wiki/Alexander_Morozevich" title="Alexander Morozevich">Alexander Morozevich</a>
+</td>
+<td>2758
+</td>
+<td>1999-07
+</td></tr>
+<tr>
+<td>6
+</td>
+<td><span class="flagicon"><a href="https://en.wikipedia.org/wiki/Bulgaria" title="Bulgaria"><img alt="Bulgaria" src="//upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Flag_of_Bulgaria.svg/23px-Flag_of_Bulgaria.svg.png" decoding="async" width="23" height="14" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Flag_of_Bulgaria.svg/35px-Flag_of_Bulgaria.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Flag_of_Bulgaria.svg/46px-Flag_of_Bulgaria.svg.png 2x" data-file-width="1000" data-file-height="600"></a></span>
+</td>
+<td><a href="https://en.wikipedia.org/wiki/Veselin_Topalov" title="Veselin Topalov">Veselin Topalov</a>
+</td>
+<td>2750
+</td>
+<td>1996-07
+</td></tr>
+<tr>
+<td>7
+</td>
+<td><span class="flagicon"><a href="https://en.wikipedia.org/wiki/United_States" title="United States"><img alt="United States" src="//upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/23px-Flag_of_the_United_States.svg.png" decoding="async" width="23" height="12" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/35px-Flag_of_the_United_States.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/46px-Flag_of_the_United_States.svg.png 2x" data-file-width="1235" data-file-height="650"></a></span>
+</td>
+<td><a href="https://en.wikipedia.org/wiki/Gata_Kamsky" title="Gata Kamsky">Gata Kamsky</a>
+</td>
+<td>2745
+</td>
+<td>1996-07
+</td></tr>
+<tr>
+<td>8
+</td>
+<td><span class="flagicon"><a href="https://en.wikipedia.org/wiki/Soviet_Union" title="Soviet Union"><img alt="Soviet Union" src="//upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_the_Soviet_Union.svg/23px-Flag_of_the_Soviet_Union.svg.png" decoding="async" width="23" height="12" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_the_Soviet_Union.svg/35px-Flag_of_the_Soviet_Union.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_the_Soviet_Union.svg/46px-Flag_of_the_Soviet_Union.svg.png 2x" data-file-width="1200" data-file-height="600"></a></span><span class="flagicon"><a href="https://en.wikipedia.org/wiki/Latvia" title="Latvia"><img alt="Latvia" src="//upload.wikimedia.org/wikipedia/commons/thumb/8/84/Flag_of_Latvia.svg/23px-Flag_of_Latvia.svg.png" decoding="async" width="23" height="12" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/8/84/Flag_of_Latvia.svg/35px-Flag_of_Latvia.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/8/84/Flag_of_Latvia.svg/46px-Flag_of_Latvia.svg.png 2x" data-file-width="1200" data-file-height="600"></a></span><span class="flagicon"><a href="https://en.wikipedia.org/wiki/Spain" title="Spain"><img alt="Spain" src="//upload.wikimedia.org/wikipedia/en/thumb/9/9a/Flag_of_Spain.svg/23px-Flag_of_Spain.svg.png" decoding="async" width="23" height="15" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/en/thumb/9/9a/Flag_of_Spain.svg/35px-Flag_of_Spain.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/9/9a/Flag_of_Spain.svg/45px-Flag_of_Spain.svg.png 2x" data-file-width="750" data-file-height="500"></a></span>
+</td>
+<td><a href="https://en.wikipedia.org/wiki/Alexei_Shirov" title="Alexei Shirov">Alexei Shirov</a>
+</td>
+<td>2740
+</td>
+<td>1994-07
+</td></tr>
+<tr>
+<td>9
+</td>
+<td><span class="flagicon"><a href="https://en.wikipedia.org/wiki/Soviet_Union" title="Soviet Union"><img alt="Soviet Union" src="//upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_the_Soviet_Union.svg/23px-Flag_of_the_Soviet_Union.svg.png" decoding="async" width="23" height="12" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_the_Soviet_Union.svg/35px-Flag_of_the_Soviet_Union.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_the_Soviet_Union.svg/46px-Flag_of_the_Soviet_Union.svg.png 2x" data-file-width="1200" data-file-height="600"></a></span><span class="flagicon"><a href="https://en.wikipedia.org/wiki/Ukraine" title="Ukraine"><img alt="Ukraine" src="//upload.wikimedia.org/wikipedia/commons/thumb/4/49/Flag_of_Ukraine.svg/23px-Flag_of_Ukraine.svg.png" decoding="async" width="23" height="15" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/4/49/Flag_of_Ukraine.svg/35px-Flag_of_Ukraine.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/4/49/Flag_of_Ukraine.svg/45px-Flag_of_Ukraine.svg.png 2x" data-file-width="1200" data-file-height="800"></a></span>
+</td>
+<td><a href="https://en.wikipedia.org/wiki/Vassily_Ivanchuk" class="mw-redirect" title="Vassily Ivanchuk">Vassily Ivanchuk</a>
+</td>
+<td>2740
+</td>
+<td>1995-07
+</td></tr>
+<tr>
+<td>10
+</td>
+<td><span class="flagicon"><a href="https://en.wikipedia.org/wiki/England" title="England"><img alt="England" src="//upload.wikimedia.org/wikipedia/en/thumb/b/be/Flag_of_England.svg/23px-Flag_of_England.svg.png" decoding="async" width="23" height="14" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/en/thumb/b/be/Flag_of_England.svg/35px-Flag_of_England.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/b/be/Flag_of_England.svg/46px-Flag_of_England.svg.png 2x" data-file-width="800" data-file-height="480"></a></span>
+</td>
+<td><a href="https://en.wikipedia.org/wiki/Michael_Adams_(chess_player)" title="Michael Adams (chess player)">Michael Adams</a>
+</td>
+<td>2716
+</td>
+<td>1999-01
+</td></tr>
+<tr>
+<td>11
+</td>
+<td><span class="flagicon"><a href="https://en.wikipedia.org/wiki/Soviet_Union" title="Soviet Union"><img alt="Soviet Union" src="//upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_the_Soviet_Union.svg/23px-Flag_of_the_Soviet_Union.svg.png" decoding="async" width="23" height="12" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_the_Soviet_Union.svg/35px-Flag_of_the_Soviet_Union.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_the_Soviet_Union.svg/46px-Flag_of_the_Soviet_Union.svg.png 2x" data-file-width="1200" data-file-height="600"></a></span><span class="flagicon"><a href="https://en.wikipedia.org/wiki/Russia" title="Russia"><img alt="Russia" src="//upload.wikimedia.org/wikipedia/en/thumb/f/f3/Flag_of_Russia.svg/23px-Flag_of_Russia.svg.png" decoding="async" width="23" height="15" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/en/thumb/f/f3/Flag_of_Russia.svg/35px-Flag_of_Russia.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/f/f3/Flag_of_Russia.svg/45px-Flag_of_Russia.svg.png 2x" data-file-width="900" data-file-height="600"></a></span>
+</td>
+<td><a href="https://en.wikipedia.org/wiki/Valery_Salov" title="Valery Salov">Valery Salov</a>
+</td>
+<td>2715
+</td>
+<td>1995-01
+</td></tr>
+<tr>
+<td>12
+</td>
+<td><span class="flagicon"><a href="https://en.wikipedia.org/wiki/Soviet_Union" title="Soviet Union"><img alt="Soviet Union" src="//upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_the_Soviet_Union.svg/23px-Flag_of_the_Soviet_Union.svg.png" decoding="async" width="23" height="12" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_the_Soviet_Union.svg/35px-Flag_of_the_Soviet_Union.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_the_Soviet_Union.svg/46px-Flag_of_the_Soviet_Union.svg.png 2x" data-file-width="1200" data-file-height="600"></a></span><span class="flagicon"><a href="https://en.wikipedia.org/wiki/Russia" title="Russia"><img alt="Russia" src="//upload.wikimedia.org/wikipedia/en/thumb/f/f3/Flag_of_Russia.svg/23px-Flag_of_Russia.svg.png" decoding="async" width="23" height="15" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/en/thumb/f/f3/Flag_of_Russia.svg/35px-Flag_of_Russia.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/f/f3/Flag_of_Russia.svg/45px-Flag_of_Russia.svg.png 2x" data-file-width="900" data-file-height="600"></a></span>
+</td>
+<td><a href="https://en.wikipedia.org/wiki/Peter_Svidler" title="Peter Svidler">Peter Svidler</a>
+</td>
+<td>2713
+</td>
+<td>1999-01
+</td></tr>
+<tr>
+<td>13
+</td>
+<td><span class="flagicon"><a href="https://en.wikipedia.org/wiki/Soviet_Union" title="Soviet Union"><img alt="Soviet Union" src="//upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_the_Soviet_Union.svg/23px-Flag_of_the_Soviet_Union.svg.png" decoding="async" width="23" height="12" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_the_Soviet_Union.svg/35px-Flag_of_the_Soviet_Union.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_the_Soviet_Union.svg/46px-Flag_of_the_Soviet_Union.svg.png 2x" data-file-width="1200" data-file-height="600"></a></span><span class="flagicon"><a href="https://en.wikipedia.org/wiki/Russia" title="Russia"><img alt="Russia" src="//upload.wikimedia.org/wikipedia/en/thumb/f/f3/Flag_of_Russia.svg/23px-Flag_of_Russia.svg.png" decoding="async" width="23" height="15" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/en/thumb/f/f3/Flag_of_Russia.svg/35px-Flag_of_Russia.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/f/f3/Flag_of_Russia.svg/45px-Flag_of_Russia.svg.png 2x" data-file-width="900" data-file-height="600"></a></span><span class="flagicon"><a href="https://en.wikipedia.org/wiki/Belarus" title="Belarus"><img alt="Belarus" src="//upload.wikimedia.org/wikipedia/commons/thumb/8/85/Flag_of_Belarus.svg/23px-Flag_of_Belarus.svg.png" decoding="async" width="23" height="12" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/8/85/Flag_of_Belarus.svg/35px-Flag_of_Belarus.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/8/85/Flag_of_Belarus.svg/46px-Flag_of_Belarus.svg.png 2x" data-file-width="900" data-file-height="450"></a></span><span class="flagicon"><a href="https://en.wikipedia.org/wiki/Israel" title="Israel"><img alt="Israel" src="//upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Flag_of_Israel.svg/21px-Flag_of_Israel.svg.png" decoding="async" width="21" height="15" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Flag_of_Israel.svg/32px-Flag_of_Israel.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Flag_of_Israel.svg/41px-Flag_of_Israel.svg.png 2x" data-file-width="660" data-file-height="480"></a></span>
+</td>
+<td><a href="https://en.wikipedia.org/wiki/Boris_Gelfand" title="Boris Gelfand">Boris Gelfand</a>
+</td>
+<td>2712
+</td>
+<td>1999-07
+</td></tr>
+<tr>
+<td>14
+</td>
+<td><span class="flagicon"><a href="https://en.wikipedia.org/wiki/Soviet_Union" title="Soviet Union"><img alt="Soviet Union" src="//upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_the_Soviet_Union.svg/23px-Flag_of_the_Soviet_Union.svg.png" decoding="async" width="23" height="12" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_the_Soviet_Union.svg/35px-Flag_of_the_Soviet_Union.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_the_Soviet_Union.svg/46px-Flag_of_the_Soviet_Union.svg.png 2x" data-file-width="1200" data-file-height="600"></a></span><span class="flagicon"><a href="https://en.wikipedia.org/wiki/Ukraine" title="Ukraine"><img alt="Ukraine" src="//upload.wikimedia.org/wikipedia/commons/thumb/4/49/Flag_of_Ukraine.svg/23px-Flag_of_Ukraine.svg.png" decoding="async" width="23" height="15" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/4/49/Flag_of_Ukraine.svg/35px-Flag_of_Ukraine.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/4/49/Flag_of_Ukraine.svg/45px-Flag_of_Ukraine.svg.png 2x" data-file-width="1200" data-file-height="800"></a></span><span class="flagicon"><a href="https://en.wikipedia.org/wiki/Slovenia" title="Slovenia"><img alt="Slovenia" src="//upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Flag_of_Slovenia.svg/23px-Flag_of_Slovenia.svg.png" decoding="async" width="23" height="12" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Flag_of_Slovenia.svg/35px-Flag_of_Slovenia.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Flag_of_Slovenia.svg/46px-Flag_of_Slovenia.svg.png 2x" data-file-width="1200" data-file-height="600"></a></span>
+</td>
+<td><a href="https://en.wikipedia.org/wiki/Alexander_Beliavsky" title="Alexander Beliavsky">Alexander Beliavsky</a>
+</td>
+<td>2710
+</td>
+<td>1997-07
+</td></tr>
+<tr>
+<td>15
+</td>
+<td><span class="flagicon"><a href="https://en.wikipedia.org/wiki/Hungary" title="Hungary"><img alt="Hungary" src="//upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Flag_of_Hungary.svg/23px-Flag_of_Hungary.svg.png" decoding="async" width="23" height="12" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Flag_of_Hungary.svg/35px-Flag_of_Hungary.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Flag_of_Hungary.svg/46px-Flag_of_Hungary.svg.png 2x" data-file-width="1200" data-file-height="600"></a></span>
+</td>
+<td><a href="https://en.wikipedia.org/wiki/Peter_Leko" title="Peter Leko">Peter Leko</a>
+</td>
+<td>2701
+</td>
+<td>1999-07
+</td></tr>
+<tr>
+<td>16
+</td>
+<td><span class="flagicon"><a href="https://en.wikipedia.org/wiki/Soviet_Union" title="Soviet Union"><img alt="Soviet Union" src="//upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_the_Soviet_Union.svg/23px-Flag_of_the_Soviet_Union.svg.png" decoding="async" width="23" height="12" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_the_Soviet_Union.svg/35px-Flag_of_the_Soviet_Union.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_the_Soviet_Union.svg/46px-Flag_of_the_Soviet_Union.svg.png 2x" data-file-width="1200" data-file-height="600"></a></span><span class="flagicon"><a href="https://en.wikipedia.org/wiki/Russia" title="Russia"><img alt="Russia" src="//upload.wikimedia.org/wikipedia/en/thumb/f/f3/Flag_of_Russia.svg/23px-Flag_of_Russia.svg.png" decoding="async" width="23" height="15" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/en/thumb/f/f3/Flag_of_Russia.svg/35px-Flag_of_Russia.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/f/f3/Flag_of_Russia.svg/45px-Flag_of_Russia.svg.png 2x" data-file-width="900" data-file-height="600"></a></span>
+</td>
+<td><a href="https://en.wikipedia.org/wiki/Evgeny_Bareev" title="Evgeny Bareev">Evgeny Bareev</a>
+</td>
+<td>2698
+</td>
+<td>1999-07
+</td></tr>
+<tr>
+<td>17
+</td>
+<td><span class="flagicon"><a href="https://en.wikipedia.org/wiki/England" title="England"><img alt="England" src="//upload.wikimedia.org/wikipedia/en/thumb/b/be/Flag_of_England.svg/23px-Flag_of_England.svg.png" decoding="async" width="23" height="14" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/en/thumb/b/be/Flag_of_England.svg/35px-Flag_of_England.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/b/be/Flag_of_England.svg/46px-Flag_of_England.svg.png 2x" data-file-width="800" data-file-height="480"></a></span>
+</td>
+<td><a href="https://en.wikipedia.org/wiki/Nigel_Short" title="Nigel Short">Nigel Short</a>
+</td>
+<td>2697
+</td>
+<td>1999-01
+</td></tr>
+<tr>
+<td>18
+</td>
+<td><span class="flagicon"><a href="https://en.wikipedia.org/wiki/Soviet_Union" title="Soviet Union"><img alt="Soviet Union" src="//upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_the_Soviet_Union.svg/23px-Flag_of_the_Soviet_Union.svg.png" decoding="async" width="23" height="12" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_the_Soviet_Union.svg/35px-Flag_of_the_Soviet_Union.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_the_Soviet_Union.svg/46px-Flag_of_the_Soviet_Union.svg.png 2x" data-file-width="1200" data-file-height="600"></a></span><span class="flagicon"><a href="https://en.wikipedia.org/wiki/Russia" title="Russia"><img alt="Russia" src="//upload.wikimedia.org/wikipedia/en/thumb/f/f3/Flag_of_Russia.svg/23px-Flag_of_Russia.svg.png" decoding="async" width="23" height="15" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/en/thumb/f/f3/Flag_of_Russia.svg/35px-Flag_of_Russia.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/f/f3/Flag_of_Russia.svg/45px-Flag_of_Russia.svg.png 2x" data-file-width="900" data-file-height="600"></a></span>
+</td>
+<td><a href="https://en.wikipedia.org/wiki/Sergei_Rublevsky" title="Sergei Rublevsky">Sergei Rublevsky</a>
+</td>
+<td>2685
+</td>
+<td>1998-07
+</td></tr>
+<tr>
+<td>19
+</td>
+<td><span class="flagicon"><a href="https://en.wikipedia.org/wiki/Soviet_Union" title="Soviet Union"><img alt="Soviet Union" src="//upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_the_Soviet_Union.svg/23px-Flag_of_the_Soviet_Union.svg.png" decoding="async" width="23" height="12" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_the_Soviet_Union.svg/35px-Flag_of_the_Soviet_Union.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_the_Soviet_Union.svg/46px-Flag_of_the_Soviet_Union.svg.png 2x" data-file-width="1200" data-file-height="600"></a></span><span class="flagicon"><a href="https://en.wikipedia.org/wiki/Georgia_(country)" title="Georgia (country)"><img alt="Georgia (country)" src="//upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Flag_of_Georgia.svg/23px-Flag_of_Georgia.svg.png" decoding="async" width="23" height="15" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Flag_of_Georgia.svg/35px-Flag_of_Georgia.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Flag_of_Georgia.svg/45px-Flag_of_Georgia.svg.png 2x" data-file-width="900" data-file-height="600"></a></span>
+</td>
+<td><a href="https://en.wikipedia.org/wiki/Zurab_Azmaiparashvili" title="Zurab Azmaiparashvili">Zurab Azmaiparashvili</a>
+</td>
+<td>2681
+</td>
+<td>1999-01
+</td></tr>
+<tr>
+<td>20=
+</td>
+<td><span class="flagicon"><a href="https://en.wikipedia.org/wiki/Netherlands" title="Netherlands"><img alt="Netherlands" src="//upload.wikimedia.org/wikipedia/commons/thumb/2/20/Flag_of_the_Netherlands.svg/23px-Flag_of_the_Netherlands.svg.png" decoding="async" width="23" height="15" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/2/20/Flag_of_the_Netherlands.svg/35px-Flag_of_the_Netherlands.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/2/20/Flag_of_the_Netherlands.svg/45px-Flag_of_the_Netherlands.svg.png 2x" data-file-width="900" data-file-height="600"></a></span>
+</td>
+<td><a href="https://en.wikipedia.org/wiki/Jan_Timman" title="Jan Timman">Jan Timman</a>
+</td>
+<td>2680
+</td>
+<td>1990-01
+</td></tr>
+<tr>
+<td>20=
+</td>
+<td><span class="flagicon"><a href="https://en.wikipedia.org/wiki/Soviet_Union" title="Soviet Union"><img alt="Soviet Union" src="//upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_the_Soviet_Union.svg/23px-Flag_of_the_Soviet_Union.svg.png" decoding="async" width="23" height="12" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_the_Soviet_Union.svg/35px-Flag_of_the_Soviet_Union.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_the_Soviet_Union.svg/46px-Flag_of_the_Soviet_Union.svg.png 2x" data-file-width="1200" data-file-height="600"></a></span><span class="flagicon"><a href="https://en.wikipedia.org/wiki/Russia" title="Russia"><img alt="Russia" src="//upload.wikimedia.org/wikipedia/en/thumb/f/f3/Flag_of_Russia.svg/23px-Flag_of_Russia.svg.png" decoding="async" width="23" height="15" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/en/thumb/f/f3/Flag_of_Russia.svg/35px-Flag_of_Russia.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/f/f3/Flag_of_Russia.svg/45px-Flag_of_Russia.svg.png 2x" data-file-width="900" data-file-height="600"></a></span><span class="flagicon"><a href="https://en.wikipedia.org/wiki/Germany" title="Germany"><img alt="Germany" src="//upload.wikimedia.org/wikipedia/en/thumb/b/ba/Flag_of_Germany.svg/23px-Flag_of_Germany.svg.png" decoding="async" width="23" height="14" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/en/thumb/b/ba/Flag_of_Germany.svg/35px-Flag_of_Germany.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/b/ba/Flag_of_Germany.svg/46px-Flag_of_Germany.svg.png 2x" data-file-width="1000" data-file-height="600"></a></span>
+</td>
+<td><a href="https://en.wikipedia.org/wiki/Artur_Yusupov_(chess_player)" title="Artur Yusupov (chess player)">Artur Yusupov</a>
+</td>
+<td>2680
+</td>
+<td>1995-07
+</td></tr></tbody><tfoot></tfoot></table></div>
+<!--1990s end-->
+<!--1980s-->
+<button type="button" class="btn btn-outline-dark btn-lg btn-block" style="margin-bottom:20px;" onclick="myFunction('1980s')">
+<h6>
+1980s
+</h6>
+</button>
+<div id="1980s" style="display:none;">
+<table class="col-md-9 mx-auto table table-bordered" style="margin-top:20px;">
+<caption>Chess players ordered by peak FIDE rating in 1980s
+</caption>
+<thead class="thead-dark"><tr>
+<th class="headerSort" tabindex="0" role="columnheader button" title="Sort ascending">
+</th>
+<th class="headerSort" tabindex="0" role="columnheader button" title="Sort ascending">Country
+</th>
+<th class="headerSort" tabindex="0" role="columnheader button" title="Sort ascending">Player
+</th>
+<th class="headerSort" tabindex="0" role="columnheader button" title="Sort ascending">Peak rating in 1980s
+</th>
+<th class="headerSort" tabindex="0" role="columnheader button" title="Sort ascending">Achieved
+</th></tr></thead><tbody>
+<tr>
+<td>1
+</td>
+<td><span class="flagicon"><a href="https://en.wikipedia.org/wiki/Soviet_Union" title="Soviet Union"><img alt="Soviet Union" src="//upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_the_Soviet_Union.svg/23px-Flag_of_the_Soviet_Union.svg.png" decoding="async" width="23" height="12" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_the_Soviet_Union.svg/35px-Flag_of_the_Soviet_Union.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_the_Soviet_Union.svg/46px-Flag_of_the_Soviet_Union.svg.png 2x" data-file-width="1200" data-file-height="600"></a></span>
+</td>
+<td><a href="https://en.wikipedia.org/wiki/Garry_Kasparov" title="Garry Kasparov">Garry Kasparov</a>
+</td>
+<td>2775
+</td>
+<td>1989-01
+</td></tr>
+<tr>
+<td>2
+</td>
+<td><span class="flagicon"><a href="https://en.wikipedia.org/wiki/Soviet_Union" title="Soviet Union"><img alt="Soviet Union" src="//upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_the_Soviet_Union.svg/23px-Flag_of_the_Soviet_Union.svg.png" decoding="async" width="23" height="12" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_the_Soviet_Union.svg/35px-Flag_of_the_Soviet_Union.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_the_Soviet_Union.svg/46px-Flag_of_the_Soviet_Union.svg.png 2x" data-file-width="1200" data-file-height="600"></a></span>
+</td>
+<td><a href="https://en.wikipedia.org/wiki/Anatoly_Karpov" title="Anatoly Karpov">Anatoly Karpov</a>
+</td>
+<td>2755
+</td>
+<td>1989-07
+</td></tr>
+<tr>
+<td>3
+</td>
+<td><span class="flagicon"><a href="https://en.wikipedia.org/wiki/Soviet_Union" title="Soviet Union"><img alt="Soviet Union" src="//upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_the_Soviet_Union.svg/23px-Flag_of_the_Soviet_Union.svg.png" decoding="async" width="23" height="12" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_the_Soviet_Union.svg/35px-Flag_of_the_Soviet_Union.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_the_Soviet_Union.svg/46px-Flag_of_the_Soviet_Union.svg.png 2x" data-file-width="1200" data-file-height="600"></a></span>
+</td>
+<td><a href="https://en.wikipedia.org/wiki/Mikhail_Tal" title="Mikhail Tal">Mikhail Tal</a>
+</td>
+<td>2705
+</td>
+<td>1980-01
+</td></tr>
+<tr>
+<td>4
+</td>
+<td><span class="flagicon"><a href="https://en.wikipedia.org/wiki/Switzerland" title="Switzerland"><img alt="Switzerland" src="//upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Flag_of_Switzerland.svg/16px-Flag_of_Switzerland.svg.png" decoding="async" width="16" height="16" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Flag_of_Switzerland.svg/24px-Flag_of_Switzerland.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Flag_of_Switzerland.svg/32px-Flag_of_Switzerland.svg.png 2x" data-file-width="512" data-file-height="512"></a></span>
+</td>
+<td><a href="https://en.wikipedia.org/wiki/Viktor_Korchnoi" title="Viktor Korchnoi">Viktor Korchnoi</a>
+</td>
+<td>2695
+</td>
+<td>1980-01
+</td></tr>
+<tr>
+<td>5
+</td>
+<td><span class="flagicon"><a href="https://en.wikipedia.org/wiki/Netherlands" title="Netherlands"><img alt="Netherlands" src="//upload.wikimedia.org/wikipedia/commons/thumb/2/20/Flag_of_the_Netherlands.svg/23px-Flag_of_the_Netherlands.svg.png" decoding="async" width="23" height="15" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/2/20/Flag_of_the_Netherlands.svg/35px-Flag_of_the_Netherlands.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/2/20/Flag_of_the_Netherlands.svg/45px-Flag_of_the_Netherlands.svg.png 2x" data-file-width="900" data-file-height="600"></a></span>
+</td>
+<td><a href="https://en.wikipedia.org/wiki/Jan_Timman" title="Jan Timman">Jan Timman</a>
+</td>
+<td>2675
+</td>
+<td>1988-01
+</td></tr>
+<tr>
+<td>6
+</td>
+<td><span class="flagicon"><a href="https://en.wikipedia.org/wiki/England" title="England"><img alt="England" src="//upload.wikimedia.org/wikipedia/en/thumb/b/be/Flag_of_England.svg/23px-Flag_of_England.svg.png" decoding="async" width="23" height="14" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/en/thumb/b/be/Flag_of_England.svg/35px-Flag_of_England.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/b/be/Flag_of_England.svg/46px-Flag_of_England.svg.png 2x" data-file-width="800" data-file-height="480"></a></span>
+</td>
+<td><a href="https://en.wikipedia.org/wiki/Nigel_Short" title="Nigel Short">Nigel Short</a>
+</td>
+<td>2665
+</td>
+<td>1988-07
+</td></tr>
+<tr>
+<td>7=
+</td>
+<td><span class="flagicon"><a href="https://en.wikipedia.org/wiki/Soviet_Union" title="Soviet Union"><img alt="Soviet Union" src="//upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_the_Soviet_Union.svg/23px-Flag_of_the_Soviet_Union.svg.png" decoding="async" width="23" height="12" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_the_Soviet_Union.svg/35px-Flag_of_the_Soviet_Union.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_the_Soviet_Union.svg/46px-Flag_of_the_Soviet_Union.svg.png 2x" data-file-width="1200" data-file-height="600"></a></span>
+</td>
+<td><a href="https://en.wikipedia.org/wiki/Artur_Yusupov_(chess_player)" title="Artur Yusupov (chess player)">Artur Yusupov</a>
+</td>
+<td>2660
+</td>
+<td>1986-07
+</td></tr>
+<tr>
+<td>7=
+</td>
+<td><span class="flagicon"><a href="https://en.wikipedia.org/wiki/Soviet_Union" title="Soviet Union"><img alt="Soviet Union" src="//upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_the_Soviet_Union.svg/23px-Flag_of_the_Soviet_Union.svg.png" decoding="async" width="23" height="12" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_the_Soviet_Union.svg/35px-Flag_of_the_Soviet_Union.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_the_Soviet_Union.svg/46px-Flag_of_the_Soviet_Union.svg.png 2x" data-file-width="1200" data-file-height="600"></a></span>
+</td>
+<td><a href="https://en.wikipedia.org/wiki/Vassily_Ivanchuk" class="mw-redirect" title="Vassily Ivanchuk">Vassily Ivanchuk</a>
+</td>
+<td>2660
+</td>
+<td>1989-07
+</td></tr>
+<tr>
+<td>9=
+</td>
+<td><span class="flagicon"><a href="https://en.wikipedia.org/wiki/Hungary" title="Hungary"><img alt="Hungary" src="//upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Flag_of_Hungary.svg/23px-Flag_of_Hungary.svg.png" decoding="async" width="23" height="12" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Flag_of_Hungary.svg/35px-Flag_of_Hungary.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Flag_of_Hungary.svg/46px-Flag_of_Hungary.svg.png 2x" data-file-width="1200" data-file-height="600"></a></span>
+</td>
+<td><a href="https://en.wikipedia.org/wiki/Lajos_Portisch" title="Lajos Portisch">Lajos Portisch</a>
+</td>
+<td>2655
+</td>
+<td>1980-01
+</td></tr>
+<tr>
+<td>9=
+</td>
+<td><span class="flagicon"><a href="https://en.wikipedia.org/wiki/Soviet_Union" title="Soviet Union"><img alt="Soviet Union" src="//upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_the_Soviet_Union.svg/23px-Flag_of_the_Soviet_Union.svg.png" decoding="async" width="23" height="12" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_the_Soviet_Union.svg/35px-Flag_of_the_Soviet_Union.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_the_Soviet_Union.svg/46px-Flag_of_the_Soviet_Union.svg.png 2x" data-file-width="1200" data-file-height="600"></a></span>
+</td>
+<td><a href="https://en.wikipedia.org/wiki/Alexander_Beliavsky" title="Alexander Beliavsky">Alexander Beliavsky</a>
+</td>
+<td>2655
+</td>
+<td>1988-07
+</td></tr>
+<tr>
+<td>11=
+</td>
+<td><span class="flagicon"><a href="https://en.wikipedia.org/wiki/Socialist_Federal_Republic_of_Yugoslavia" title="Socialist Federal Republic of Yugoslavia"><img alt="Socialist Federal Republic of Yugoslavia" src="//upload.wikimedia.org/wikipedia/commons/thumb/6/61/Flag_of_Yugoslavia_%281946-1992%29.svg/23px-Flag_of_Yugoslavia_%281946-1992%29.svg.png" decoding="async" width="23" height="12" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/6/61/Flag_of_Yugoslavia_%281946-1992%29.svg/35px-Flag_of_Yugoslavia_%281946-1992%29.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/6/61/Flag_of_Yugoslavia_%281946-1992%29.svg/46px-Flag_of_Yugoslavia_%281946-1992%29.svg.png 2x" data-file-width="1200" data-file-height="600"></a></span>
+</td>
+<td><a href="https://en.wikipedia.org/wiki/Ljubomir_Ljubojevi%C4%87" title="Ljubomir Ljubojević">Ljubomir Ljubojević</a>
+</td>
+<td>2645
+</td>
+<td>1983-01
+</td></tr>
+<tr>
+<td>11=
+</td>
+<td><span class="flagicon"><a href="https://en.wikipedia.org/wiki/Soviet_Union" title="Soviet Union"><img alt="Soviet Union" src="//upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_the_Soviet_Union.svg/23px-Flag_of_the_Soviet_Union.svg.png" decoding="async" width="23" height="12" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_the_Soviet_Union.svg/35px-Flag_of_the_Soviet_Union.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_the_Soviet_Union.svg/46px-Flag_of_the_Soviet_Union.svg.png 2x" data-file-width="1200" data-file-height="600"></a></span>
+</td>
+<td><a href="https://en.wikipedia.org/wiki/Rafael_Vaganian" title="Rafael Vaganian">Rafael Vaganian</a>
+</td>
+<td>2645
+</td>
+<td>1986-01
+</td></tr>
+<tr>
+<td>11=
+</td>
+<td><span class="flagicon"><a href="https://en.wikipedia.org/wiki/Soviet_Union" title="Soviet Union"><img alt="Soviet Union" src="//upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_the_Soviet_Union.svg/23px-Flag_of_the_Soviet_Union.svg.png" decoding="async" width="23" height="12" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_the_Soviet_Union.svg/35px-Flag_of_the_Soviet_Union.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_the_Soviet_Union.svg/46px-Flag_of_the_Soviet_Union.svg.png 2x" data-file-width="1200" data-file-height="600"></a></span>
+</td>
+<td><a href="https://en.wikipedia.org/wiki/Andrei_Sokolov" title="Andrei Sokolov">Andrei Sokolov</a>
+</td>
+<td>2645
+</td>
+<td>1987-01
+</td></tr>
+<tr>
+<td>11=
+</td>
+<td><span class="flagicon"><a href="https://en.wikipedia.org/wiki/England" title="England"><img alt="England" src="//upload.wikimedia.org/wikipedia/en/thumb/b/be/Flag_of_England.svg/23px-Flag_of_England.svg.png" decoding="async" width="23" height="14" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/en/thumb/b/be/Flag_of_England.svg/35px-Flag_of_England.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/b/be/Flag_of_England.svg/46px-Flag_of_England.svg.png 2x" data-file-width="800" data-file-height="480"></a></span>
+</td>
+<td><a href="https://en.wikipedia.org/wiki/Jonathan_Speelman" class="mw-redirect" title="Jonathan Speelman">Jonathan Speelman</a>
+</td>
+<td>2645
+</td>
+<td>1988-07
+</td></tr>
+<tr>
+<td>11=
+</td>
+<td><span class="flagicon"><a href="https://en.wikipedia.org/wiki/Soviet_Union" title="Soviet Union"><img alt="Soviet Union" src="//upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_the_Soviet_Union.svg/23px-Flag_of_the_Soviet_Union.svg.png" decoding="async" width="23" height="12" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_the_Soviet_Union.svg/35px-Flag_of_the_Soviet_Union.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_the_Soviet_Union.svg/46px-Flag_of_the_Soviet_Union.svg.png 2x" data-file-width="1200" data-file-height="600"></a></span>
+</td>
+<td><a href="https://en.wikipedia.org/wiki/Valery_Salov" title="Valery Salov">Valery Salov</a>
+</td>
+<td>2645
+</td>
+<td>1989-07
+</td></tr>
+<tr>
+<td>16=
+</td>
+<td><span class="flagicon"><a href="https://en.wikipedia.org/wiki/West_Germany" title="West Germany"><img alt="West Germany" src="//upload.wikimedia.org/wikipedia/en/thumb/b/ba/Flag_of_Germany.svg/23px-Flag_of_Germany.svg.png" decoding="async" width="23" height="14" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/en/thumb/b/ba/Flag_of_Germany.svg/35px-Flag_of_Germany.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/b/ba/Flag_of_Germany.svg/46px-Flag_of_Germany.svg.png 2x" data-file-width="1000" data-file-height="600"></a></span>
+</td>
+<td><a href="https://en.wikipedia.org/wiki/Robert_H%C3%BCbner" title="Robert Hübner">Robert Hübner</a>
+</td>
+<td>2640
+</td>
+<td>1981-07
+</td></tr>
+<tr>
+<td>16=
+</td>
+<td><span class="flagicon"><a href="https://en.wikipedia.org/wiki/Sweden" title="Sweden"><img alt="Sweden" src="//upload.wikimedia.org/wikipedia/en/thumb/4/4c/Flag_of_Sweden.svg/23px-Flag_of_Sweden.svg.png" decoding="async" width="23" height="14" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/en/thumb/4/4c/Flag_of_Sweden.svg/35px-Flag_of_Sweden.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/4/4c/Flag_of_Sweden.svg/46px-Flag_of_Sweden.svg.png 2x" data-file-width="1600" data-file-height="1000"></a></span>
+</td>
+<td><a href="https://en.wikipedia.org/wiki/Ulf_Andersson" title="Ulf Andersson">Ulf Andersson</a>
+</td>
+<td>2640
+</td>
+<td>1983-01
+</td></tr>
+<tr>
+<td>16=
+</td>
+<td><span class="flagicon"><a href="https://en.wikipedia.org/wiki/Soviet_Union" title="Soviet Union"><img alt="Soviet Union" src="//upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_the_Soviet_Union.svg/23px-Flag_of_the_Soviet_Union.svg.png" decoding="async" width="23" height="12" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_the_Soviet_Union.svg/35px-Flag_of_the_Soviet_Union.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_the_Soviet_Union.svg/46px-Flag_of_the_Soviet_Union.svg.png 2x" data-file-width="1200" data-file-height="600"></a></span>
+</td>
+<td><a href="https://en.wikipedia.org/wiki/Mikhail_Gurevich_(chess_player)" title="Mikhail Gurevich (chess player)">Mikhail Gurevich</a>
+</td>
+<td>2640
+</td>
+<td>1989-07
+</td></tr>
+<tr>
+<td>19=
+</td>
+<td><span class="flagicon"><a href="https://en.wikipedia.org/wiki/Soviet_Union" title="Soviet Union"><img alt="Soviet Union" src="//upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_the_Soviet_Union.svg/23px-Flag_of_the_Soviet_Union.svg.png" decoding="async" width="23" height="12" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_the_Soviet_Union.svg/35px-Flag_of_the_Soviet_Union.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_the_Soviet_Union.svg/46px-Flag_of_the_Soviet_Union.svg.png 2x" data-file-width="1200" data-file-height="600"></a></span>
+</td>
+<td><a href="https://en.wikipedia.org/wiki/Lev_Polugaevsky" title="Lev Polugaevsky">Lev Polugaevsky</a>
+</td>
+<td>2635
+</td>
+<td>1980-01
+</td></tr>
+<tr>
+<td>19=
+</td>
+<td><span class="flagicon"><a href="https://en.wikipedia.org/wiki/Soviet_Union" title="Soviet Union"><img alt="Soviet Union" src="//upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_the_Soviet_Union.svg/23px-Flag_of_the_Soviet_Union.svg.png" decoding="async" width="23" height="12" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_the_Soviet_Union.svg/35px-Flag_of_the_Soviet_Union.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_the_Soviet_Union.svg/46px-Flag_of_the_Soviet_Union.svg.png 2x" data-file-width="1200" data-file-height="600"></a></span>
+</td>
+<td><a href="https://en.wikipedia.org/wiki/Boris_Spassky" title="Boris Spassky">Boris Spassky</a>
+</td>
+<td>2635
+</td>
+<td>1981-01
+</td></tr></tbody><tfoot></tfoot></table></div>
+<!--1980s end-->
+<!--1970s-->
+<button type="button" class="btn btn-outline-dark btn-lg btn-block" style="margin-bottom:20px;" onclick="myFunction('1970s')">
+<h6>
+1970s
+</h6>
+</button>
+<div id="1970s" style="display:none;">
+<table class="col-md-9 mx-auto table table-bordered" style="margin-top:20px;">
+<caption>Chess players ordered by peak FIDE rating in 1970s
+</caption>
+<thead class="thead-dark"><tr>
+<th class="headerSort" tabindex="0" role="columnheader button" title="Sort ascending">
+</th>
+<th class="headerSort" tabindex="0" role="columnheader button" title="Sort ascending">Country
+</th>
+<th class="headerSort" tabindex="0" role="columnheader button" title="Sort ascending">Player
+</th>
+<th class="headerSort" tabindex="0" role="columnheader button" title="Sort ascending">Peak rating in 1970s
+</th>
+<th class="headerSort" tabindex="0" role="columnheader button" title="Sort ascending">Achieved
+</th></tr></thead><tbody>
+<tr>
+<td>1
+</td>
+<td><span class="flagicon"><a href="https://en.wikipedia.org/wiki/United_States" title="United States"><img alt="United States" src="//upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/23px-Flag_of_the_United_States.svg.png" decoding="async" width="23" height="12" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/35px-Flag_of_the_United_States.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/46px-Flag_of_the_United_States.svg.png 2x" data-file-width="1235" data-file-height="650"></a></span>
+</td>
+<td><a href="https://en.wikipedia.org/wiki/Bobby_Fischer" title="Bobby Fischer">Bobby Fischer</a>
+</td>
+<td>2785
+</td>
+<td>1972-07
+</td></tr>
+<tr>
+<td>2
+</td>
+<td><span class="flagicon"><a href="https://en.wikipedia.org/wiki/Soviet_Union" title="Soviet Union"><img alt="Soviet Union" src="//upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_the_Soviet_Union.svg/23px-Flag_of_the_Soviet_Union.svg.png" decoding="async" width="23" height="12" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_the_Soviet_Union.svg/35px-Flag_of_the_Soviet_Union.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_the_Soviet_Union.svg/46px-Flag_of_the_Soviet_Union.svg.png 2x" data-file-width="1200" data-file-height="600"></a></span>
+</td>
+<td><a href="https://en.wikipedia.org/wiki/Anatoly_Karpov" title="Anatoly Karpov">Anatoly Karpov</a>
+</td>
+<td>2725
+</td>
+<td>1978-01
+</td></tr>
+<tr>
+<td>3
+</td>
+<td><span class="flagicon"><a href="https://en.wikipedia.org/wiki/Soviet_Union" title="Soviet Union"><img alt="Soviet Union" src="//upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_the_Soviet_Union.svg/23px-Flag_of_the_Soviet_Union.svg.png" decoding="async" width="23" height="12" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_the_Soviet_Union.svg/35px-Flag_of_the_Soviet_Union.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_the_Soviet_Union.svg/46px-Flag_of_the_Soviet_Union.svg.png 2x" data-file-width="1200" data-file-height="600"></a></span><span class="flagicon"><a href="https://en.wikipedia.org/wiki/Switzerland" title="Switzerland"><img alt="Switzerland" src="//upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Flag_of_Switzerland.svg/16px-Flag_of_Switzerland.svg.png" decoding="async" width="16" height="16" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Flag_of_Switzerland.svg/24px-Flag_of_Switzerland.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Flag_of_Switzerland.svg/32px-Flag_of_Switzerland.svg.png 2x" data-file-width="512" data-file-height="512"></a></span>
+</td>
+<td><a href="https://en.wikipedia.org/wiki/Viktor_Korchnoi" title="Viktor Korchnoi">Viktor Korchnoi</a>
+</td>
+<td>2695
+</td>
+<td>1979-01
+</td></tr>
+<tr>
+<td>4
+</td>
+<td><span class="flagicon"><a href="https://en.wikipedia.org/wiki/Soviet_Union" title="Soviet Union"><img alt="Soviet Union" src="//upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_the_Soviet_Union.svg/23px-Flag_of_the_Soviet_Union.svg.png" decoding="async" width="23" height="12" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_the_Soviet_Union.svg/35px-Flag_of_the_Soviet_Union.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_the_Soviet_Union.svg/46px-Flag_of_the_Soviet_Union.svg.png 2x" data-file-width="1200" data-file-height="600"></a></span>
+</td>
+<td><a href="https://en.wikipedia.org/wiki/Boris_Spassky" title="Boris Spassky">Boris Spassky</a>
+</td>
+<td>2690
+</td>
+<td>1971-07
+</td></tr>
+<tr>
+<td>5=
+</td>
+<td><span class="flagicon"><a href="https://en.wikipedia.org/wiki/Denmark" title="Denmark"><img alt="Denmark" src="//upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Flag_of_Denmark.svg/20px-Flag_of_Denmark.svg.png" decoding="async" width="20" height="15" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Flag_of_Denmark.svg/31px-Flag_of_Denmark.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Flag_of_Denmark.svg/40px-Flag_of_Denmark.svg.png 2x" data-file-width="512" data-file-height="387"></a></span>
+</td>
+<td><a href="https://en.wikipedia.org/wiki/Bent_Larsen" title="Bent Larsen">Bent Larsen</a>
+</td>
+<td>2660
+</td>
+<td>1971-07
+</td></tr>
+<tr>
+<td>5=
+</td>
+<td><span class="flagicon"><a href="https://en.wikipedia.org/wiki/Soviet_Union" title="Soviet Union"><img alt="Soviet Union" src="//upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_the_Soviet_Union.svg/23px-Flag_of_the_Soviet_Union.svg.png" decoding="async" width="23" height="12" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_the_Soviet_Union.svg/35px-Flag_of_the_Soviet_Union.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_the_Soviet_Union.svg/46px-Flag_of_the_Soviet_Union.svg.png 2x" data-file-width="1200" data-file-height="600"></a></span>
+</td>
+<td><a href="https://en.wikipedia.org/wiki/Mikhail_Tal" title="Mikhail Tal">Mikhail Tal</a>
+</td>
+<td>2660
+</td>
+<td>1973-07
+</td></tr>
+<tr>
+<td>7
+</td>
+<td><span class="flagicon"><a href="https://en.wikipedia.org/wiki/Hungary" title="Hungary"><img alt="Hungary" src="//upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Flag_of_Hungary.svg/23px-Flag_of_Hungary.svg.png" decoding="async" width="23" height="12" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Flag_of_Hungary.svg/35px-Flag_of_Hungary.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Flag_of_Hungary.svg/46px-Flag_of_Hungary.svg.png 2x" data-file-width="1200" data-file-height="600"></a></span>
+</td>
+<td><a href="https://en.wikipedia.org/wiki/Lajos_Portisch" title="Lajos Portisch">Lajos Portisch</a>
+</td>
+<td>2650
+</td>
+<td>1973-07
+</td></tr>
+<tr>
+<td>8=
+</td>
+<td><span class="flagicon"><a href="https://en.wikipedia.org/wiki/Soviet_Union" title="Soviet Union"><img alt="Soviet Union" src="//upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_the_Soviet_Union.svg/23px-Flag_of_the_Soviet_Union.svg.png" decoding="async" width="23" height="12" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_the_Soviet_Union.svg/35px-Flag_of_the_Soviet_Union.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_the_Soviet_Union.svg/46px-Flag_of_the_Soviet_Union.svg.png 2x" data-file-width="1200" data-file-height="600"></a></span>
+</td>
+<td><a href="https://en.wikipedia.org/wiki/Tigran_Petrosian" title="Tigran Petrosian">Tigran Petrosian</a>
+</td>
+<td>2645
+</td>
+<td>1972-07
+</td></tr>
+<tr>
+<td>8=
+</td>
+<td><span class="flagicon"><a href="https://en.wikipedia.org/wiki/Soviet_Union" title="Soviet Union"><img alt="Soviet Union" src="//upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_the_Soviet_Union.svg/23px-Flag_of_the_Soviet_Union.svg.png" decoding="async" width="23" height="12" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_the_Soviet_Union.svg/35px-Flag_of_the_Soviet_Union.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_the_Soviet_Union.svg/46px-Flag_of_the_Soviet_Union.svg.png 2x" data-file-width="1200" data-file-height="600"></a></span>
+</td>
+<td><a href="https://en.wikipedia.org/wiki/Lev_Polugaevsky" title="Lev Polugaevsky">Lev Polugaevsky</a>
+</td>
+<td>2645
+</td>
+<td>1972-07
+</td></tr>
+<tr>
+<td>10
+</td>
+<td><span class="flagicon"><a href="https://en.wikipedia.org/wiki/Brazil" title="Brazil"><img alt="Brazil" src="//upload.wikimedia.org/wikipedia/en/thumb/0/05/Flag_of_Brazil.svg/22px-Flag_of_Brazil.svg.png" decoding="async" width="22" height="15" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/en/thumb/0/05/Flag_of_Brazil.svg/33px-Flag_of_Brazil.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/0/05/Flag_of_Brazil.svg/43px-Flag_of_Brazil.svg.png 2x" data-file-width="720" data-file-height="504"></a></span>
+</td>
+<td><a href="https://en.wikipedia.org/wiki/Henrique_Mecking" title="Henrique Mecking">Henrique Mecking</a>
+</td>
+<td>2635
+</td>
+<td>1977-01
+</td></tr>
+<tr>
+<td>11
+</td>
+<td><span class="flagicon"><a href="https://en.wikipedia.org/wiki/Soviet_Union" title="Soviet Union"><img alt="Soviet Union" src="//upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_the_Soviet_Union.svg/23px-Flag_of_the_Soviet_Union.svg.png" decoding="async" width="23" height="12" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_the_Soviet_Union.svg/35px-Flag_of_the_Soviet_Union.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_the_Soviet_Union.svg/46px-Flag_of_the_Soviet_Union.svg.png 2x" data-file-width="1200" data-file-height="600"></a></span>
+</td>
+<td><a href="https://en.wikipedia.org/wiki/Mikhail_Botvinnik" title="Mikhail Botvinnik">Mikhail Botvinnik</a>
+</td>
+<td>2630
+</td>
+<td>1971-07
+</td></tr>
+<tr>
+<td>12=
+</td>
+<td><span class="flagicon"><a href="https://en.wikipedia.org/wiki/Czechoslovakia" title="Czechoslovakia"><img alt="Czechoslovakia" src="//upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Flag_of_the_Czech_Republic.svg/23px-Flag_of_the_Czech_Republic.svg.png" decoding="async" width="23" height="15" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Flag_of_the_Czech_Republic.svg/35px-Flag_of_the_Czech_Republic.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Flag_of_the_Czech_Republic.svg/45px-Flag_of_the_Czech_Republic.svg.png 2x" data-file-width="900" data-file-height="600"></a></span><span class="flagicon"><a href="https://en.wikipedia.org/wiki/United_States" title="United States"><img alt="United States" src="//upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/23px-Flag_of_the_United_States.svg.png" decoding="async" width="23" height="12" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/35px-Flag_of_the_United_States.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/a/a4/Flag_of_the_United_States.svg/46px-Flag_of_the_United_States.svg.png 2x" data-file-width="1235" data-file-height="650"></a></span>
+</td>
+<td><a href="https://en.wikipedia.org/wiki/Lubomir_Kavalek" title="Lubomir Kavalek">Lubomir Kavalek</a>
+</td>
+<td>2625
+</td>
+<td>1974-05
+</td></tr>
+<tr>
+<td>12=
+</td>
+<td><span class="flagicon"><a href="https://en.wikipedia.org/wiki/Netherlands" title="Netherlands"><img alt="Netherlands" src="//upload.wikimedia.org/wikipedia/commons/thumb/2/20/Flag_of_the_Netherlands.svg/23px-Flag_of_the_Netherlands.svg.png" decoding="async" width="23" height="15" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/2/20/Flag_of_the_Netherlands.svg/35px-Flag_of_the_Netherlands.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/2/20/Flag_of_the_Netherlands.svg/45px-Flag_of_the_Netherlands.svg.png 2x" data-file-width="900" data-file-height="600"></a></span>
+</td>
+<td><a href="https://en.wikipedia.org/wiki/Jan_Timman" title="Jan Timman">Jan Timman</a>
+</td>
+<td>2625
+</td>
+<td>1979-01
+</td></tr>
+<tr>
+<td>14=
+</td>
+<td><span class="flagicon"><a href="https://en.wikipedia.org/wiki/Soviet_Union" title="Soviet Union"><img alt="Soviet Union" src="//upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_the_Soviet_Union.svg/23px-Flag_of_the_Soviet_Union.svg.png" decoding="async" width="23" height="12" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_the_Soviet_Union.svg/35px-Flag_of_the_Soviet_Union.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_the_Soviet_Union.svg/46px-Flag_of_the_Soviet_Union.svg.png 2x" data-file-width="1200" data-file-height="600"></a></span>
+</td>
+<td><a href="https://en.wikipedia.org/wiki/Vassily_Smyslov" class="mw-redirect" title="Vassily Smyslov">Vassily Smyslov</a>
+</td>
+<td>2620
+</td>
+<td>1971-01
+</td></tr>
+<tr>
+<td>14=
+</td>
+<td><span class="flagicon"><a href="https://en.wikipedia.org/wiki/Soviet_Union" title="Soviet Union"><img alt="Soviet Union" src="//upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_the_Soviet_Union.svg/23px-Flag_of_the_Soviet_Union.svg.png" decoding="async" width="23" height="12" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_the_Soviet_Union.svg/35px-Flag_of_the_Soviet_Union.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_the_Soviet_Union.svg/46px-Flag_of_the_Soviet_Union.svg.png 2x" data-file-width="1200" data-file-height="600"></a></span>
+</td>
+<td><a href="https://en.wikipedia.org/wiki/Leonid_Stein" title="Leonid Stein">Leonid Stein</a>
+</td>
+<td>2620
+</td>
+<td>1972-01
+</td></tr>
+<tr>
+<td>14=
+</td>
+<td><span class="flagicon"><a href="https://en.wikipedia.org/wiki/Socialist_Federal_Republic_of_Yugoslavia" title="Socialist Federal Republic of Yugoslavia"><img alt="Socialist Federal Republic of Yugoslavia" src="//upload.wikimedia.org/wikipedia/commons/thumb/6/61/Flag_of_Yugoslavia_%281946-1992%29.svg/23px-Flag_of_Yugoslavia_%281946-1992%29.svg.png" decoding="async" width="23" height="12" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/6/61/Flag_of_Yugoslavia_%281946-1992%29.svg/35px-Flag_of_Yugoslavia_%281946-1992%29.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/6/61/Flag_of_Yugoslavia_%281946-1992%29.svg/46px-Flag_of_Yugoslavia_%281946-1992%29.svg.png 2x" data-file-width="1200" data-file-height="600"></a></span>
+</td>
+<td><a href="https://en.wikipedia.org/wiki/Ljubomir_Ljubojevi%C4%87" title="Ljubomir Ljubojević">Ljubomir Ljubojević</a>
+</td>
+<td>2620
+</td>
+<td>1976-01
+</td></tr>
+<tr>
+<td>14=
+</td>
+<td><span class="flagicon"><a href="https://en.wikipedia.org/wiki/Soviet_Union" title="Soviet Union"><img alt="Soviet Union" src="//upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_the_Soviet_Union.svg/23px-Flag_of_the_Soviet_Union.svg.png" decoding="async" width="23" height="12" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_the_Soviet_Union.svg/35px-Flag_of_the_Soviet_Union.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_the_Soviet_Union.svg/46px-Flag_of_the_Soviet_Union.svg.png 2x" data-file-width="1200" data-file-height="600"></a></span>
+</td>
+<td><a href="https://en.wikipedia.org/wiki/Efim_Geller" title="Efim Geller">Efim Geller</a>
+</td>
+<td>2620
+</td>
+<td>1976-01
+</td></tr>
+<tr>
+<td>14=
+</td>
+<td><span class="flagicon"><a href="https://en.wikipedia.org/wiki/Czechoslovakia" title="Czechoslovakia"><img alt="Czechoslovakia" src="//upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Flag_of_the_Czech_Republic.svg/23px-Flag_of_the_Czech_Republic.svg.png" decoding="async" width="23" height="15" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Flag_of_the_Czech_Republic.svg/35px-Flag_of_the_Czech_Republic.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Flag_of_the_Czech_Republic.svg/45px-Flag_of_the_Czech_Republic.svg.png 2x" data-file-width="900" data-file-height="600"></a></span>
+</td>
+<td><a href="https://en.wikipedia.org/wiki/Vlastimil_Hort" title="Vlastimil Hort">Vlastimil Hort</a>
+</td>
+<td>2620
+</td>
+<td>1977-01
+</td></tr>
+<tr>
+<td>19=
+</td>
+<td><span class="flagicon"><a href="https://en.wikipedia.org/wiki/Soviet_Union" title="Soviet Union"><img alt="Soviet Union" src="//upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_the_Soviet_Union.svg/23px-Flag_of_the_Soviet_Union.svg.png" decoding="async" width="23" height="12" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_the_Soviet_Union.svg/35px-Flag_of_the_Soviet_Union.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_the_Soviet_Union.svg/46px-Flag_of_the_Soviet_Union.svg.png 2x" data-file-width="1200" data-file-height="600"></a></span>
+</td>
+<td><a href="https://en.wikipedia.org/wiki/Paul_Keres" title="Paul Keres">Paul Keres</a>
+</td>
+<td>2615
+</td>
+<td>1971-07
+</td></tr>
+<tr>
+<td>19=
+</td>
+<td><span class="flagicon"><a href="https://en.wikipedia.org/wiki/West_Germany" title="West Germany"><img alt="West Germany" src="//upload.wikimedia.org/wikipedia/en/thumb/b/ba/Flag_of_Germany.svg/23px-Flag_of_Germany.svg.png" decoding="async" width="23" height="14" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/en/thumb/b/ba/Flag_of_Germany.svg/35px-Flag_of_Germany.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/b/ba/Flag_of_Germany.svg/46px-Flag_of_Germany.svg.png 2x" data-file-width="1000" data-file-height="600"></a></span>
+</td>
+<td><a href="https://en.wikipedia.org/wiki/Robert_H%C3%BCbner" title="Robert Hübner">Robert Hübner</a>
+</td>
+<td>2615
+</td>
+<td>1974-05
+</td></tr>
+<tr>
+<td>19=
+</td>
+<td><span class="flagicon"><a href="https://en.wikipedia.org/wiki/Czechoslovakia" title="Czechoslovakia"><img alt="Czechoslovakia" src="//upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Flag_of_the_Czech_Republic.svg/23px-Flag_of_the_Czech_Republic.svg.png" decoding="async" width="23" height="15" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Flag_of_the_Czech_Republic.svg/35px-Flag_of_the_Czech_Republic.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Flag_of_the_Czech_Republic.svg/45px-Flag_of_the_Czech_Republic.svg.png 2x" data-file-width="900" data-file-height="600"></a></span>
+</td>
+<td><a href="https://en.wikipedia.org/wiki/Jan_Smejkal" title="Jan Smejkal">Jan Smejkal</a>
+</td>
+<td>2615
+</td>
+<td>1976-01
+</td></tr></tbody><tfoot></tfoot></table></div>
+</div>
+<!-- Footer -->
+<div class="footer">
+</div>
+<!-- Footer end-->
+</body>
+</html>
