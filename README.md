@@ -1,2 +1,2 @@
 # cs50_sample_site
-This repository contains the code for a sample site created for a task given by CS50 Harvard University. This site is about chess. All contents like, information, data, images are taken from wikipedia https://www.google.com.pk/url?sa=t&amp;rct=j&amp;q=&amp;esrc=s&amp;source=web&amp;cd=&amp;cad=rja&amp;uact=8&amp;ved=2ahUKEwiMltOfyITtAhVCtnEKHem9ANgQFjAAegQIARAD&amp;url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FChess&amp;usg=AOvVaw03iUVEtVesM2h9_i_AZ4eb
+The code for a Flask application sample site created for a task given by CS50 Harvard University. This site is about chess. All contents like, information, data, images are taken from wikipedia.
