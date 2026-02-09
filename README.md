@@ -38,3 +38,13 @@ Content and images sourced from [Wikipedia](https://en.wikipedia.org/wiki/Chess)
 ## License
 
 Educational project for CS50.
+
+---
+
+## CI Status
+
+All PRs are checked for:
+- ✅ Syntax (Python, JS, TS, YAML, JSON, Dockerfile, Shell)
+- ✅ Secrets (No hardcoded credentials)
+- ✅ Security (High-severity vulnerabilities)
+
