@@ -1,0 +1,9 @@
+{
+  "extends": "stylelint-config-standard",
+  "rules": {
+    "selector-class-pattern": null,
+    "no-empty-source": true,
+    "color-no-invalid-hex": true,
+    "declaration-block-no-duplicate-properties": true
+  }
+}
