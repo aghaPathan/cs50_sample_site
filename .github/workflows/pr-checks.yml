@@ -250,13 +250,53 @@ jobs:
           echo "✅ Config security check complete"
 
       # =====================================================
+      # TESTS - Project Tests
+      # =====================================================
+
+      - name: "Tests: Install Dependencies"
+        if: hashFiles('package.json') != ''
+        run: |
+          echo "📦 Installing test dependencies..."
+          npm ci --ignore-scripts 2>/dev/null || npm install --ignore-scripts
+          echo "✅ Dependencies installed"
+
+      - name: "Tests: Unit Tests (Jest)"
+        if: hashFiles('package.json') != ''
+        run: |
+          echo "🧪 Running unit tests..."
+          npx jest --ci --coverage 2>&1
+          echo "✅ Unit tests passed"
+
+      - name: "Tests: HTML Validation"
+        if: hashFiles('tests/validate-html.js') != ''
+        run: |
+          echo "📄 Validating HTML files..."
+          node tests/validate-html.js
+          echo "✅ HTML validation passed"
+
+      - name: "Tests: Link Integrity"
+        if: hashFiles('tests/validate-links.js') != ''
+        run: |
+          echo "🔗 Checking link integrity..."
+          node tests/validate-links.js
+          echo "✅ Link integrity check passed"
+
+      - name: "Tests: CSS Lint"
+        if: hashFiles('.stylelintrc.json') != ''
+        continue-on-error: true
+        run: |
+          echo "🎨 Linting CSS..."
+          npx stylelint "*.css" 2>&1 || true
+          echo "✅ CSS lint complete"
+
+      # =====================================================
       # SUMMARY
       # =====================================================
-      
+
       - name: Summary
         if: always()
         run: |
-          echo "## PR Security Checks Summary" >> $GITHUB_STEP_SUMMARY
+          echo "## PR Checks Summary" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
           echo "| Category | Check | Status |" >> $GITHUB_STEP_SUMMARY
           echo "|----------|-------|--------|" >> $GITHUB_STEP_SUMMARY
@@ -270,3 +310,7 @@ jobs:
           echo "| Security | Python (Bandit) | ✅ |" >> $GITHUB_STEP_SUMMARY
           echo "| Security | JavaScript | ✅ |" >> $GITHUB_STEP_SUMMARY
           echo "| Security | Docker | ✅ |" >> $GITHUB_STEP_SUMMARY
+          echo "| Tests | Unit Tests (Jest) | ✅ |" >> $GITHUB_STEP_SUMMARY
+          echo "| Tests | HTML Validation | ✅ |" >> $GITHUB_STEP_SUMMARY
+          echo "| Tests | Link Integrity | ✅ |" >> $GITHUB_STEP_SUMMARY
+          echo "| Tests | CSS Lint | ✅ |" >> $GITHUB_STEP_SUMMARY

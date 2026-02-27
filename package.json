@@ -1,0 +1,21 @@
+{
+  "name": "cs50-chess-world",
+  "version": "1.0.0",
+  "description": "Chess World - A CS50 sample site about chess history, rules, and rankings",
+  "private": true,
+  "scripts": {
+    "test": "jest",
+    "test:coverage": "jest --coverage",
+    "lint:css": "stylelint \"*.css\"",
+    "validate:html": "node tests/validate-html.js",
+    "validate:links": "node tests/validate-links.js",
+    "check:all": "npm test && npm run lint:css && npm run validate:html && npm run validate:links"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
+    "cheerio": "^1.0.0",
+    "stylelint": "^16.2.0",
+    "stylelint-config-standard": "^36.0.0"
+  }
+}
